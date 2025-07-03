@@ -44,6 +44,10 @@ This document is designed to be a living resource that evolves over time as new 
 A collection of examples demonstrating LocalAI usage. Useful for developers wanting to run AI models locally without cloud dependencies.  
 **Notes:** Check for recent updates; local AI frameworks evolve fast, so some examples might rely on older versions. Free and open-source.
 
+### [LocalAI](https://localai.io/)  
+Official site for LocalAI, an open-source platform for running LLMs and generative models locally. Focuses on privacy, extensibility, and compatibility with OpenAI APIs.  
+**Notes:** Free and open-source; some integrations or models may have their own licensing.
+
 ### [LocalAGI (mudler)](https://github.com/mudler/LocalAGI)  
 A project focused on building AGI-like agents that run locally. Good for experimentation with autonomous AI agents on local machines.  
 **Notes:** Verify maintenance status; local AGI is a rapidly evolving field. Free and open-source.
@@ -56,17 +60,17 @@ An AI agent framework, likely for building specialized agents. Could be useful f
 Helix is a framework/tool related to AI or machine learning with a focus on local AI agent development and orchestration. The website (tryhelix.ai) offers a user-friendly interface and tools for building and managing AI agents locally with emphasis on privacy and customization. It supports multi-agent workflows and integrates with popular LLMs.  
 **Notes:** Actively maintained, open-source with free access; some advanced features may require registration or subscription. Strong focus on local deployment and privacy.
 
-### [AutoGen_IterativeCoding (Andyinater)](https://github.com/Andyinater/AutoGen_IterativeCoding)  
-A project using AutoGen for iterative coding tasks. Since AutoGen has had multiple versions, confirm if this uses an older version (e.g., 0.2) which might be outdated.  
-**Notes:** Likely tied to older AutoGen versions; usefulness depends on version compatibility. Free and open-source.
-
-### [OpenHands (All-Hands-AI)](https://github.com/All-Hands-AI/OpenHands?tab=readme-ov-file)  
-A repository focused on open-source AI hands-on projects and tools. Useful for practical AI applications and learning.  
+### [Open WebUI (open-webui)](https://github.com/open-webui/open-webui)  
+An open-source web user interface for running local AI models with ease. Supports multiple backends and models.  
 **Notes:** Free and open-source.
 
 ### [Mentals AI (turing-machines)](https://github.com/turing-machines/mentals-ai)  
 An AI agent framework or toolkit. Needs further exploration for specific use cases.  
 **Notes:** Free and open-source; check maintenance status.
+
+### [OpenHands (All-Hands-AI)](https://github.com/All-Hands-AI/OpenHands?tab=readme-ov-file)  
+A repository focused on open-source AI hands-on projects and tools. Useful for practical AI applications and learning.  
+**Notes:** Free and open-source.
 
 ---
 
@@ -118,6 +122,10 @@ Comprehensive guide to AutoGen platform. Good for newcomers and those wanting a 
 Official documentation for AutoGen stable release. Essential reference for developers.  
 **Notes:** None; always check for latest docs. Free.
 
+### [AutoGen_IterativeCoding (Andyinater)](https://github.com/Andyinater/AutoGen_IterativeCoding)  
+A project using AutoGen for iterative coding tasks. Since AutoGen has had multiple versions, confirm if this uses an older version (e.g., 0.2) which might be outdated.  
+**Notes:** Likely tied to older AutoGen versions; usefulness depends on version compatibility. Free and open-source.
+
 ---
 
 ## Theme 3: AI Agent Development Guides and Learning Resources
@@ -136,10 +144,6 @@ Guide focused on Magnetic LLM, possibly for algorithmic trading or specialized L
 
 ### [Awesome AI Agents (e2b-dev)](https://github.com/e2b-dev/awesome-ai-agents)  
 A curated list of AI agent projects and tools. Useful for discovering new frameworks and applications.  
-**Notes:** Free and open-source.
-
-### [Open WebUI (open-webui)](https://github.com/open-webui/open-webui)  
-An open-source web user interface for running local AI models with ease. Supports multiple backends and models.  
 **Notes:** Free and open-source.
 
 ### [CrewAI (crewAIInc)](https://github.com/crewAIInc/crewAI)  
@@ -209,6 +213,41 @@ A guide to choosing the right LLM for your needs.
 ### [YouTube: Local LLM Tutorial](https://www.youtube.com/watch?v=yG5Pvk9Bkqk&list=WL&index=22)  
 Video tutorial on working with local LLMs.  
 **Notes:** Free.
+
+---
+
+## Theme 4: Model Context Protocol (MCP) Ecosystem
+
+The Model Context Protocol (MCP) is an emerging standard and ecosystem for integrating, orchestrating, and automating AI agents and tools, especially in local and privacy-focused environments. Below are key resources and projects in the MCP space:
+
+### [MCP Protocol Servers (modelcontextprotocol)](https://github.com/modelcontextprotocol/servers?tab=readme-ov-file)  
+A collection of MCP server implementations for various platforms and use cases.  
+**Notes:** Free and open-source.
+
+### [MCP.so](https://mcp.so/)  
+A platform and hub for MCP-based tools, integrations, and community resources.  
+**Notes:** Free to use; some integrations may have costs.
+
+### [MCP Pipedream (mcp.pipedream.com)](https://mcp.pipedream.com/)  
+Platform for building AI workflows and integrations using MCP.  
+**Notes:** Freemium model.
+
+#### MCP-Related Tools and Integrations
+
+- [applescript-mcp (peakmojo)](https://github.com/peakmojo/applescript-mcp): AppleScript integration for MCP.  
+- [choturobo (vishalmysore)](https://github.com/vishalmysore/choturobo): MCP-based automation tool.  
+- [mcp-server-commands (g0t4)](https://github.com/g0t4/mcp-server-commands): Command server for MCP.  
+- [mcp-remote-macos-use (baryhuang)](https://github.com/baryhuang/mcp-remote-macos-use): Remote MacOS integration for MCP.  
+- [mcp-server-deep-research (reading-plus-ai)](https://github.com/reading-plus-ai/mcp-server-deep-research): Research-focused MCP server.  
+- [DesktopCommanderMCP (wonderwhy-er)](https://github.com/wonderwhy-er/DesktopCommanderMCP): Desktop command integration for MCP.  
+- [mcp-server-email (Shy2593666979)](https://github.com/Shy2593666979/mcp-server-email): Email integration for MCP.  
+- [iMCP (loopwork-ai)](https://github.com/loopwork-ai/iMCP): MCP implementation for iOS/macOS.  
+- [mac_messages_mcp (carterlasalle)](https://github.com/carterlasalle/mac_messages_mcp): Mac Messages integration for MCP.  
+- [mikrotik-mcp (jeff-nasseri)](https://github.com/jeff-nasseri/mikrotik-mcp): MikroTik router integration for MCP.  
+- [todoist-mcp-server (abhiz123)](https://github.com/abhiz123/todoist-mcp-server): Todoist integration for MCP.  
+- [kicad-mcp (lamaalrajih)](https://github.com/lamaalrajih/kicad-mcp): KiCad integration for MCP.  
+
+**Notes:** All above are free and open-source unless otherwise noted.
 
 ---
 
