@@ -86,45 +86,71 @@ Magnetic is a specialized LLM platform that integrates with AutoGen to enhance A
 
 Together, these components represent a growing ecosystem around AutoGen, supporting both technical and non-technical users in building sophisticated AI applications with multi-agent collaboration.
 
-### [Getting Started with AutoGen Multi-Agent Workflow Tutorial](https://www.gettingstarted.ai/autogen-multi-agent-workflow-tutorial/)  
-A tutorial for building multi-agent workflows with AutoGen. Useful for beginners and intermediate users.  
-**Notes:** Check if tutorial references latest AutoGen version (v0.4+ preferred). Free.
+### Core AutoGen Resources
 
-### [AutoGen Studio v0.4 - No-Code Tool (newsletter.victordibia.com)](https://newsletter.victordibia.com/p/autogen-studio-v04-a-no-code-tool)  
-Announcement and overview of AutoGen Studio v0.4, a no-code platform for multi-agent AI apps. Highly relevant and up-to-date.  
-**Notes:** None apparent; version 0.4 is recent. Free tier available; advanced features may require subscription.
+- [Getting Started with AutoGen Multi-Agent Workflow Tutorial](https://www.gettingstarted.ai/autogen-multi-agent-workflow-tutorial/)  
+  Beginner-friendly tutorial for building multi-agent workflows with AutoGen. Free.
 
-### [Microsoft's AutoGen Blog (e2b.dev)](https://e2b.dev/blog/microsoft-s-autogen)  
-Overview and insights into Microsoft's AutoGen framework. Good for understanding core concepts and use cases.  
-**Notes:** Verify if content covers latest updates. Free.
+- [AutoGen Studio v0.4 - No-Code Tool (newsletter.victordibia.com)](https://newsletter.victordibia.com/p/autogen-studio-v04-a-no-code-tool)  
+  Overview of AutoGen Studio v0.4, a no-code platform for multi-agent AI apps. Free tier available; advanced features may require subscription.
 
-### [Getting Started with AutoGen (singhrajeev.com)](https://singhrajeev.com/2025/02/08/getting-started-with-autogen-a-framework-for-building-multi-agent-generative-ai-applications/)  
-A recent (2025) blog post introducing AutoGen for multi-agent generative AI. Very current and practical.  
-**Notes:** None apparent. Free.
+- [Microsoft's AutoGen Blog (e2b.dev)](https://e2b.dev/blog/microsoft-s-autogen)  
+  Insights into Microsoft’s AutoGen framework. Free.
 
-### [AutoGen Projects and Examples (projectpro.io)](https://www.projectpro.io/article/autogen-projects-and-examples/1129)  
-A curated list of projects and examples using AutoGen. Useful for practical applications and inspiration.  
-**Notes:** Check for version references to avoid outdated examples. Free.
+- [Getting Started with AutoGen (singhrajeev.com)](https://singhrajeev.com/2025/02/08/getting-started-with-autogen-a-framework-for-building-multi-agent-generative-ai-applications/)  
+  Recent blog post introducing AutoGen for generative AI. Free.
 
-### [Building a Team of Experts with Microsoft's AutoGen (glasswing.vc)](https://glasswing.vc/blog/building-a-team-of-experts-with-microsofts-autogen/)  
-Explores how to use AutoGen to build expert AI teams. Good for conceptual understanding and advanced use cases.  
-**Notes:** Confirm if it references latest AutoGen features. Free.
+- [AutoGen Projects and Examples (projectpro.io)](https://www.projectpro.io/article/autogen-projects-and-examples/1129)  
+  Curated list of AutoGen projects and examples. Free.
 
-### [AutoGen is Mindblowing - 4 Features (towardsai.net)](https://pub.towardsai.net/autogen-is-mindblowing-4-features-that-make-autogen-the-state-of-the-art-framework-for-creating-ai-c7eb997b58a5)  
-Highlights key features of AutoGen that make it state-of-the-art. Useful for quick understanding of strengths.  
-**Notes:** Check publication date for relevance. Free.
+- [Building a Team of Experts with Microsoft's AutoGen (glasswing.vc)](https://glasswing.vc/blog/building-a-team-of-experts-with-microsofts-autogen/)  
+  Conceptual guide on building expert AI teams with AutoGen. Free.
 
-### [What is AutoGen? Full Guide (skimai.com)](https://skimai.com/what-is-autogen-our-full-guide-to-the-autogen-multi-agent-platform/)  
-Comprehensive guide to AutoGen platform. Good for newcomers and those wanting a deep dive.  
-**Notes:** Verify if guide is updated to latest version. Free.
+- [AutoGen is Mindblowing - 4 Features (towardsai.net)](https://pub.towardsai.net/autogen-is-mindblowing-4-features-that-make-autogen-the-state-of-the-art-framework-for-creating-ai-c7eb997b58a5)  
+  Highlights key AutoGen features. Free.
 
-### [Microsoft AutoGen Official Docs (microsoft.github.io/autogen/stable)](https://microsoft.github.io/autogen/stable/)  
-Official documentation for AutoGen stable release. Essential reference for developers.  
-**Notes:** None; always check for latest docs. Free.
+- [What is AutoGen? Full Guide (skimai.com)](https://skimai.com/what-is-autogen-our-full-guide-to-the-autogen-multi-agent-platform/)  
+  Comprehensive guide to AutoGen. Free.
 
-### [AutoGen_IterativeCoding (Andyinater)](https://github.com/Andyinater/AutoGen_IterativeCoding)  
-A project using AutoGen for iterative coding tasks. Since AutoGen has had multiple versions, confirm if this uses an older version (e.g., 0.2) which might be outdated.  
-**Notes:** Likely tied to older AutoGen versions; usefulness depends on version compatibility. Free and open-source.
+- [Microsoft AutoGen Official Docs](https://microsoft.github.io/autogen/stable/user-guide/agentchat-user-guide/index.html)  
+  Official documentation for AutoGen stable release. Free.
+
+- [Autogen Course (pdichone)](https://github.com/pdichone/autogen-course)  
+  Free, open-source course with tutorials and projects.
+
+- [Dream Team (Azure-Samples)](https://github.com/Azure-Samples/dream-team)  
+  Microsoft Azure sample project demonstrating AutoGen multi-agent teams. Azure services may incur costs.
+
+- [Autogen Beginner Course (tylerprogramming)](https://github.com/tylerprogramming/autogen-beginner-course)  
+  Beginner’s course for AutoGen. Free.
+
+- [Multiagent Systems with AutoGen (victordibia)](https://github.com/victordibia/multiagent-systems-with-autogen?tab=readme-ov-file)  
+  Practical guide and code repo for multi-agent systems with AutoGen. Free.
+
+---
+
+### AutoGen Skills and Community Examples
+
+- [Reddit: More Examples of AutoGen Skillz](https://www.reddit.com/r/AutoGenAI/comments/199lgy3/more_examples_of_autogen_skillz/)  
+  Community-shared AutoGen skills and examples. Free.
+
+- [autogen_skillz (csabakecskemeti)](https://github.com/csabakecskemeti/autogen_skillz)  
+  Collection of AutoGen skills. Free.
+
+- [autogen-studio-skills (aj47)](https://github.com/aj47/autogen-studio-skills)  
+  Skills for AutoGen Studio. Free.
+
+- [autogenstudio-skills (madtank)](https://github.com/madtank/autogenstudio-skills)  
+  Additional AutoGen Studio skills. Free.
+
+- [openai-autogen-dev-studio (ivangabriele)](https://github.com/ivangabriele/openai-autogen-dev-studio)  
+  Development tools and skills for AutoGen. Free.
+
+- [autogen-studio-teams (2acrestudios)](https://github.com/2acrestudios/autogen-studio-teams)  
+  Team collaboration skills for AutoGen Studio. Free.
+
+- [autogen-studio-research (gabrielle-barnes)](https://github.com/gabrielle-barnes/autogen-studio-research/tree/main)  
+  Research-focused AutoGen Studio skills. Free.
 
 ---
 
@@ -214,9 +240,29 @@ A guide to choosing the right LLM for your needs.
 Video tutorial on working with local LLMs.  
 **Notes:** Free.
 
+### [AI (tylerprogramming)](https://github.com/tylerprogramming/ai)  
+A collection of AI projects, tools, and experiments. Useful for developers exploring practical AI implementations.  
+**Notes:** Free and open-source.
+
+### [AI System Development: LLM, RAG, AI Workflow, Agent (codelink.io)](https://www.codelink.io/blog/post/ai-system-development-llm-rag-ai-workflow-agent)  
+A blog post providing a practical overview of building AI systems using LLMs, retrieval-augmented generation (RAG), and agent workflows.  
+**Notes:** Free.
+
+### [arXiv:2506.10943](https://arxiv.org/pdf/2506.10943)  
+A recent academic paper (June 2025) on advanced AI agent systems, architectures, or evaluation.  
+**Notes:** Free to access; highly relevant for those seeking the latest research.
+
 ---
 
-## Theme 4: Model Context Protocol (MCP) Ecosystem
+## Theme 4: Enterprise AI Agents and Platforms
+
+### [AgentSpace Enterprise Gallery (cloud.google.com)](https://cloud.google.com/agentspace/agentspace-enterprise/docs/agents-gallery)  
+Google Cloud’s AgentSpace platform showcasing enterprise AI agents and workflows. Useful for organizations looking to deploy AI agents at scale.  
+**Notes:** Enterprise platform; usage may incur costs.
+
+---
+
+## Theme 5: Model Context Protocol (MCP) Ecosystem
 
 The Model Context Protocol (MCP) is an emerging standard and ecosystem for integrating, orchestrating, and automating AI agents and tools, especially in local and privacy-focused environments. Below are key resources and projects in the MCP space:
 
@@ -261,4 +307,4 @@ Platform for building AI workflows and integrations using MCP.
 
 ---
 
-*Document last updated: 2025-07-03*
+*Document last updated: 2025-07-05*
