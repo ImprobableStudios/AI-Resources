@@ -260,6 +260,25 @@ A recent academic paper (June 2025) on advanced AI agent systems, architectures,
 Google Cloud’s AgentSpace platform showcasing enterprise AI agents and workflows. Useful for organizations looking to deploy AI agents at scale.  
 **Notes:** Enterprise platform; usage may incur costs.
 
+### Google MASS (Multi-Agent System Search) Framework and Research
+
+Google AI has introduced MASS, a new framework for optimizing multi-agent AI systems through improved prompt engineering and agent topologies. This research aims to enhance collaboration and efficiency among AI agents in complex workflows.
+
+- [arXiv Paper: MASS Framework (arxiv.org)](https://arxiv.org/html/2502.02533v1)  
+  Academic paper detailing the MASS framework for multi-agent system optimization. Free and open access.
+
+- [Learnopoly Overview: Google AI MASS Research](https://learnopoly.com/google-ai-presents-the-mass-of-research-for-multi-agent-systems-a-new-frame-of-optimization-of-ai-agents-for-better-prompts-and-topologies/)  
+  Summary and analysis of Google’s MASS research and its implications for AI agent design. Free.
+
+- [MarkTechPost Article: Google AI Introduces MASS](https://www.marktechpost.com/2025/06/07/google-ai-introduces-multi-agent-system-search-mass-a-new-ai-agent-optimization-framework-for-better-prompts-and-topologies/)  
+  News article covering the MASS framework and its potential impact on AI workflows. Free.
+
+- [Google Cloud Blog: What Execs Want to Know About Multi-Agentic Systems](https://cloud.google.com/blog/products/ai-machine-learning/what-execs-want-to-know-about-multi-agentic-systems-with-ai)  
+  Enterprise-focused blog post explaining multi-agent AI systems and their business value. Free.
+
+- [YouTube: Google AI MASS Presentation](https://www.youtube.com/watch?v=UsB3BR0RdBA)  
+  Video presentation on the MASS framework and multi-agent system optimization. Free.
+
 ---
 
 ## Theme 5: Model Context Protocol (MCP) Ecosystem
@@ -307,4 +326,4 @@ Platform for building AI workflows and integrations using MCP.
 
 ---
 
-*Document last updated: 2025-07-05*
+*Document last updated: 2025-07-07*
