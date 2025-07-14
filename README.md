@@ -156,156 +156,59 @@ Together, these components represent a growing ecosystem around AutoGen, support
 
 ## Theme 3: AI Agent Development Guides and Learning Resources
 
-### [YouTube: LangManus Introduction and Demo](https://www.youtube.com/watch?v=3M_L3wUsNEw)  
-Video introducing LangManus, a tool for enhanced application development and AI automation.  
-**Notes:** Free video resource.
 
-### [Leveraging LangManus for Enhanced Application Development and AI Automation (medium.com)](https://medium.com/@pankaj_pandey/leveraging-langmanus-for-enhanced-application-development-and-ai-automation-02d3b05baaa2)  
-Article explaining how to use LangManus for AI automation and app development.  
-**Notes:** Free article; useful for developers exploring AI automation.
+### LiteLLM
 
-### [How to Install and Test LangManus - Step-by-Step Guide (medium.com)](https://medium.com/@prabhudev.guntur/how-to-install-and-test-langmanus-a-step-by-step-guide-9185ea377a00)  
-Detailed tutorial on installing and testing LangManus.  
-**Notes:** Free tutorial; practical for beginners.
+LiteLLM is a lightweight, efficient large language model framework designed to enable easy deployment and usage of LLMs on local machines or edge devices. It focuses on minimal resource consumption while maintaining strong performance, making it suitable for developers and researchers who want to experiment with LLMs without requiring heavy infrastructure. The project is open-source and actively maintained, with comprehensive documentation and a GitHub repository for code and community contributions.  
 
-### [DataCamp AI Tutorials](https://www.datacamp.com/tutorial/category/ai)  
-Collection of AI tutorials covering various topics and tools.  
-**Notes:** Some content free; some require subscription.
+**Links:**  
+- [LiteLLM Official Site](https://www.litellm.ai/)  
+- [LiteLLM Documentation](https://docs.litellm.ai/docs/)  
+- [LiteLLM GitHub Repository](https://github.com/BerriAI/litellm)  
 
-### [LiteLLM Official Site](https://www.litellm.ai/)  
-Official site for LiteLLM, a lightweight large language model framework.  
-**Notes:** Free and open-source.
+**Notes:** Free and open-source; ideal for lightweight LLM applications and local deployments.
 
-### [LiteLLM Documentation](https://docs.litellm.ai/docs/)  
-Comprehensive documentation for LiteLLM.  
-**Notes:** Free.
+### AIlice
 
-### [LiteLLM GitHub Repository](https://github.com/BerriAI/litellm)  
-Source code and resources for LiteLLM.  
-**Notes:** Free and open-source.
+AIlice is an AI agent framework aimed at building collaborative AI workflows and multi-agent systems. It provides tools and abstractions to create, manage, and orchestrate AI agents that can work together to solve complex tasks. The framework is open-source and supported by an active community, including a dedicated Reddit forum for discussions, support, and sharing use cases. AIlice is useful for developers looking to build modular AI systems with agent collaboration.  
 
-### [Open Source LLMs on Your Own Computer (manning.com)](https://www.manning.com/liveprojectseries/open-source-llms-on-your-own-computer)  
-Live project series teaching how to run open-source large language models locally.  
-**Notes:** Paid course; very useful for hands-on learning.
+**Links:**  
+- [AIlice GitHub Repository](https://github.com/myshell-ai/AIlice)  
+- [AIlice Reddit Community](https://www.reddit.com/r/AIlice/)  
 
-### [DataCamp Flowise Tutorial](https://www.datacamp.com/tutorial/flowise)  
-Tutorial on Flowise, a visual tool for LLM orchestration and AI companion development.  
-**Notes:** Some content free; some require subscription.
+**Notes:** Free and open-source; community-driven with active support channels.
 
-### [Introducing Flowise - Visual Tool for LLM Orchestration (medium.com)](https://medium.com/@slrk4444/introducing-flowise-your-ultimate-visual-tool-for-llm-orchestration-and-ai-companion-development-71887123458f)  
-Article introducing Flowise and its features for AI development.  
-**Notes:** Free article.
+### LangManus
 
-### [n8n vs Flowise Comparison (oxylabs.io)](https://oxylabs.io/blog/n8n-vs-flowise)  
-Comparison of n8n and Flowise workflow automation tools.  
-**Notes:** Free article.
+LangManus is a tool designed to enhance application development and AI automation by providing a streamlined interface and automation capabilities. It supports developers in integrating AI-driven workflows into their applications, improving productivity and enabling advanced automation scenarios. There are tutorials and guides available for installation, testing, and leveraging LangManus features, along with video demonstrations.  
 
-### [AIlice GitHub Repository](https://github.com/myshell-ai/AIlice)  
-AIlice is an AI agent framework for collaborative AI workflows.  
-**Notes:** Free and open-source.
+**Links:**  
+- [YouTube: LangManus Introduction and Demo](https://www.youtube.com/watch?v=3M_L3wUsNEw)  
+- [Leveraging LangManus for Enhanced Application Development and AI Automation (medium.com)](https://medium.com/@pankaj_pandey/leveraging-langmanus-for-enhanced-application-development-and-ai-automation-02d3b05baaa2)  
+- [How to Install and Test LangManus - Step-by-Step Guide (medium.com)](https://medium.com/@prabhudev.guntur/how-to-install-and-test-langmanus-a-step-by-step-guide-9185ea377a00)  
 
-### [AIlice Reddit Community](https://www.reddit.com/r/AIlice/)  
-Community forum for AIlice users and developers.  
-**Notes:** Free community resource.
+**Notes:** Free resources available; practical for developers interested in AI automation and app integration.
 
+### n8n
 
-### [Building Local AI Agents from Scratch - Developer's Guide (devthink.ai)](https://devthink.ai/p/building-local-ai-agents-from-scratch-a-developer-s-guide-using-ollama)  
-Step-by-step guide for building local AI agents using Ollama. Practical for developers wanting hands-on experience.  
-**Notes:** Verify if Ollama and related tools are current. Free.
+n8n is a popular open-source workflow automation tool that supports integration with local large language models (LLMs) and AI services. It enables users to create complex automation workflows visually, connecting various APIs, databases, and AI models. n8n is widely used for automating repetitive tasks and orchestrating AI-powered processes in a no-code/low-code environment.  
 
-### [Open Source LLMs on Your Own Computer (manning.com)](https://www.manning.com/liveprojectseries/open-source-llms-on-your-own-computer)  
-Live project series teaching how to run open-source large language models locally. Very useful for hands-on learning.  
-**Notes:** Check for updates as LLMs evolve quickly. Paid course.
+**Links:**  
+- [n8n Local LLM Integration (blog.n8n.io)](https://blog.n8n.io/local-llm/)  
+- [n8n vs Flowise Comparison (oxylabs.io)](https://oxylabs.io/blog/n8n-vs-flowise)  
 
-### [Magnetic LLM Guide (algotrading101.com)](https://algotrading101.com/learn/magentic-llm-guide/)  
-Guide focused on Magnetic LLM, possibly for algorithmic trading or specialized LLM use. Niche but useful for specific applications.  
-**Notes:** Confirm if Magnetic LLM is actively maintained. Free guide; Magnetic platform may have costs.
+**Notes:** Free and open-source core; enterprise features may require subscription.
 
-### [Awesome AI Agents (e2b-dev)](https://github.com/e2b-dev/awesome-ai-agents)  
-A curated list of AI agent projects and tools. Useful for discovering new frameworks and applications.  
-**Notes:** Free and open-source.
+### Flowise
 
-### [CrewAI (crewAIInc)](https://github.com/crewAIInc/crewAI)  
-An AI agent framework for building collaborative AI workflows.  
-**Notes:** Free and open-source.
+Flowise is a visual tool for LLM orchestration and AI companion development, designed to simplify the creation and management of AI workflows. It offers a user-friendly interface for building AI applications by connecting components and models visually, making it accessible to both developers and non-technical users. Flowise supports integration with various LLMs and AI tools, and is often compared with other workflow automation platforms like n8n.  
 
-### [Langflow Quickstart (docs.langflow.org)](https://docs.langflow.org/get-started-quickstart)  
-A visual tool for building and managing LLM workflows.  
-**Notes:** Free and open-source.
+**Links:**  
+- [DataCamp Flowise Tutorial](https://www.datacamp.com/tutorial/flowise)  
+- [Introducing Flowise - Visual Tool for LLM Orchestration (medium.com)](https://medium.com/@slrk4444/introducing-flowise-your-ultimate-visual-tool-for-llm-orchestration-and-ai-companion-development-71887123458f)  
 
-### [Haystack (deepset.ai)](https://haystack.deepset.ai/)  
-An open-source framework for building NLP pipelines and search systems with LLMs.  
-**Notes:** Free and open-source; enterprise options available.
+**Notes:** Free and open-source; some advanced features may require registration or subscription.
 
-### [Local LLM Coding Assistants and Tools](https://medium.com/@smfraser/how-to-use-a-local-llm-as-a-free-coding-copilot-in-vs-code-6dffc053369d)  
-Guide on using local LLMs as coding assistants in VS Code.  
-**Notes:** Free.
-
-### [Local LLM Chatbot with Code Searches (deepgram.com)](https://deepgram.com/learn/local-llm-chatbot-that-can-run-code-searches)  
-Tutorial on building a local LLM chatbot capable of code searches.  
-**Notes:** Free.
-
-### [Personal Copilot with Hugging Face (huggingface.co/blog/personal-copilot)](https://huggingface.co/blog/personal-copilot)  
-Guide on building a personal AI copilot using Hugging Face tools.  
-**Notes:** Free; some Hugging Face services may have paid tiers.
-
-### [Visual Studio Code AI Toolkit (techcommunity.microsoft.com)](https://techcommunity.microsoft.com/blog/educatordeveloperblog/visual-studio-code-ai-toolkit-run-llms-locally/4163192)  
-Microsoft's toolkit for running LLMs locally in VS Code.  
-**Notes:** Free.
-
-### [Self-Hosted LLM Coding Assistants (semaphore.io)](https://semaphore.io/blog/selfhosted-llm-coding-assistants)  
-Overview of self-hosted coding assistants powered by LLMs.  
-**Notes:** Free.
-
-### [n8n Local LLM Integration (blog.n8n.io)](https://blog.n8n.io/local-llm/)  
-Guide on integrating local LLMs with n8n workflow automation.  
-**Notes:** Free.
-
-### [Reddit: Starter Guide for Local LLaMA](https://www.reddit.com/r/LocalLLaMA/comments/16y95hk/a_starter_guide_for_playing_with_your_own_local_ai/)  
-Community guide for running local LLaMA models.  
-**Notes:** Free.
-
-### [Udemy AI Engineering Courses (multiple)](https://www.udemy.com/course/the-ai-engineer-course-complete-ai-engineer-bootcamp/?couponCode=ST4MT20725G1)  
-Various paid courses on AI engineering and LLM app development.  
-**Notes:** Paid courses; discounts may be available.
-
-### [ScienceDirect Article on AI Agents](https://www.sciencedirect.com/science/article/pii/S266682702400046X)  
-Academic article discussing recent advances in AI agents.  
-**Notes:** Access may require subscription or institutional access.
-
-### [Slashdot Discussions on AI Agents and Assistants](https://slashdot.org/software/ai-agents/linux/)  
-Community discussions on Linux AI agents and free AI assistants.  
-**Notes:** Free.
-
-### [LAION-5B Dataset (laion.ai)](https://laion.ai/blog/laion-5b/)  
-Information on the LAION-5B open dataset for training large AI models.  
-**Notes:** Free and open.
-
-### [MCP Pipedream (mcp.pipedream.com)](https://mcp.pipedream.com/)  
-Platform for building AI workflows and integrations.  
-**Notes:** Freemium model.
-
-### [What LLM to Use (continuedev)](https://github.com/continuedev/what-llm-to-use)  
-A guide to choosing the right LLM for your needs.  
-**Notes:** Free and open-source.
-
-### [YouTube: Local LLM Tutorial](https://www.youtube.com/watch?v=yG5Pvk9Bkqk&list=WL&index=22)  
-Video tutorial on working with local LLMs.  
-**Notes:** Free.
-
-### [AI (tylerprogramming)](https://github.com/tylerprogramming/ai)  
-A collection of AI projects, tools, and experiments. Useful for developers exploring practical AI implementations.  
-**Notes:** Free and open-source.
-
-### [AI System Development: LLM, RAG, AI Workflow, Agent (codelink.io)](https://www.codelink.io/blog/post/ai-system-development-llm-rag-ai-workflow-agent)  
-A blog post providing a practical overview of building AI systems using LLMs, retrieval-augmented generation (RAG), and agent workflows.  
-**Notes:** Free.
-
-### [arXiv:2506.10943](https://arxiv.org/pdf/2506.10943)  
-A recent academic paper (June 2025) on advanced AI agent systems, architectures, or evaluation.  
-**Notes:** Free to access; highly relevant for those seeking the latest research.
-
----
 
 ## Theme 4: Enterprise AI Agents and Platforms
 
