@@ -156,9 +156,6 @@ Together, these components represent a growing ecosystem around AutoGen, support
 
 ## Theme 3: AI Agent Development Guides and Learning Resources
 
-
-## Theme 3: AI Agent Development Guides and Learning Resources
-
 ### [YouTube: LangManus Introduction and Demo](https://www.youtube.com/watch?v=3M_L3wUsNEw)  
 Video introducing LangManus, a tool for enhanced application development and AI automation.  
 **Notes:** Free video resource.
