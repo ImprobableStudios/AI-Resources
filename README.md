@@ -74,17 +74,49 @@ A repository focused on open-source AI hands-on projects and tools. Useful for p
 
 ---
 
-## Theme 2: AutoGen Framework and Ecosystem
-
-### Introduction to AutoGen, AutoGen Studio, and Magnetic
+## Theme 2: AutoGen Framework and Magentic Ecosystem
 
 AutoGen is an open-source framework developed by Microsoft designed to facilitate the creation of multi-agent AI applications. It enables developers to build complex workflows by orchestrating multiple AI agents that can communicate, collaborate, and perform tasks autonomously. AutoGen emphasizes modularity, scalability, and ease of use, making it a state-of-the-art platform for generative AI applications.
 
-AutoGen Studio is a no-code/low-code platform built on top of the AutoGen framework, providing an accessible interface for users to design, deploy, and manage multi-agent AI workflows without deep programming knowledge. The Studio supports rapid prototyping and experimentation, accelerating development cycles and broadening the user base beyond traditional developers.
+Magentic-One (often misspelled as "Magnetic" or "Magnetic-One") is a cutting-edge generalist multi-agent system developed by Microsoft Research that builds on the AutoGen framework. It represents a significant advancement in agentic AI systems, designed to autonomously solve complex, multi-step tasks across diverse domains such as web navigation, file management, coding, and data analysis.
 
-Magnetic is a specialized LLM platform that integrates with AutoGen to enhance AI agent capabilities, particularly in domain-specific or algorithmic contexts. It leverages AutoGen’s multi-agent orchestration to enable more focused and efficient AI workflows, often used in areas like algorithmic trading or specialized data processing.
+### Magentic-One Overview
 
-Together, these components represent a growing ecosystem around AutoGen, supporting both technical and non-technical users in building sophisticated AI applications with multi-agent collaboration.
+Magentic-One employs a modular multi-agent architecture led by a central Orchestrator agent that plans, tracks progress, and directs four specialized agents:
+
+- **Orchestrator:** The lead agent responsible for task decomposition, planning, and managing other agents.
+- **WebSurfer:** Controls a Chromium-based web browser to navigate, interact with, and extract information from web pages.
+- **FileSurfer:** Manages local file system navigation and file reading.
+- **Coder:** Writes and analyzes code, creating new artifacts based on information from other agents.
+- **ComputerTerminal:** Executes code and system commands in a console shell.
+
+This design allows Magentic-One to flexibly and efficiently handle open-ended tasks by delegating subtasks to specialized agents, enabling autonomous adaptation to dynamic environments.
+
+### Key Features and Capabilities
+
+- **Generalist Agentic System:** Magentic-One is designed to solve a wide range of real-world tasks that require multiple steps and diverse skills, moving beyond simple conversational AI to autonomous task completion.
+- **Modular and Extensible:** Agents can be added, removed, or replaced without reworking the entire system, supporting easy customization and scalability.
+- **Model-Agnostic:** While the default large language model (LLM) used is GPT-4o, Magentic-One supports heterogeneous models tailored to different agents' needs.
+- **Robust Planning and Recovery:** The Orchestrator maintains a task ledger and progress ledger to plan, monitor, and re-plan tasks, recovering from errors autonomously.
+- **Open Source:** Microsoft has released Magentic-One and its evaluation tool AutoGenBench as open-source, encouraging community collaboration and research.
+
+### Evaluation and Safety
+
+Magentic-One has demonstrated competitive performance on benchmarks such as GAIA, AssistantBench, and WebArena, showing state-of-the-art capabilities in multi-agent task completion. Microsoft emphasizes safety and responsible AI use, conducting red-teaming exercises and recommending human oversight to mitigate risks like unintended actions or misuse.
+
+### Related Resources
+
+- [Magentic-One Technical Report (PDF)](https://www.microsoft.com/en-us/research/wp-content/uploads/2024/11/MagenticOne.pdf)
+- [Microsoft Research Article on Magentic-One](https://www.microsoft.com/en-us/research/articles/magentic-one-a-generalist-multi-agent-system-for-solving-complex-tasks/)
+- [Microsoft Research Publication](https://www.microsoft.com/en-us/research/publication/magentic-one-a-generalist-multi-agent-system-for-solving-complex-tasks/)
+- [Magentic UI Blog](https://www.microsoft.com/en-us/research/blog/magentic-ui-an-experimental-human-centered-web-agent/)
+- [Magentic-One YouTube Presentation 1](https://www.youtube.com/watch?v=RUDZZLtB08w)
+- [Magentic-One YouTube Presentation 2](https://www.youtube.com/watch?v=JT5basX6JSY)
+- [Medium Article: Microsoft Magentic-One Multi-Agent Framework](https://medium.com/data-science-in-your-pocket/microsoft-magnetic-one-new-multi-ai-agent-framework-7fd151b81cd7)
+
+### AutoGen and Magentic Together
+
+Magentic-One is built on top of the AutoGen framework, leveraging its multi-agent orchestration capabilities to deliver a powerful, generalist AI system. AutoGen provides the modular infrastructure, while Magentic-One adds a sophisticated agent hierarchy and task management system to solve complex, real-world problems autonomously.
 
 ### Core AutoGen Resources
 
@@ -156,59 +188,103 @@ Together, these components represent a growing ecosystem around AutoGen, support
 
 ## Theme 3: AI Agent Development Guides and Learning Resources
 
+### [Building Local AI Agents from Scratch - Developer's Guide (devthink.ai)](https://devthink.ai/p/building-local-ai-agents-from-scratch-a-developer-s-guide-using-ollama)  
+Step-by-step guide for building local AI agents using Ollama. Practical for developers wanting hands-on experience.  
+**Notes:** Verify if Ollama and related tools are current. Free.
 
-### LiteLLM
+### [Open Source LLMs on Your Own Computer (manning.com)](https://www.manning.com/liveprojectseries/open-source-llms-on-your-own-computer)  
+Live project series teaching how to run open-source large language models locally. Very useful for hands-on learning.  
+**Notes:** Check for updates as LLMs evolve quickly. Paid course.
 
-LiteLLM is a lightweight, efficient large language model framework designed to enable easy deployment and usage of LLMs on local machines or edge devices. It focuses on minimal resource consumption while maintaining strong performance, making it suitable for developers and researchers who want to experiment with LLMs without requiring heavy infrastructure. The project is open-source and actively maintained, with comprehensive documentation and a GitHub repository for code and community contributions.  
+### [Magnetic LLM Guide (algotrading101.com)](https://algotrading101.com/learn/magentic-llm-guide/)  
+Guide focused on Magnetic LLM, possibly for algorithmic trading or specialized LLM use. Niche but useful for specific applications.  
+**Notes:** Confirm if Magnetic LLM is actively maintained. Free guide; Magnetic platform may have costs.
 
-**Links:**  
-- [LiteLLM Official Site](https://www.litellm.ai/)  
-- [LiteLLM Documentation](https://docs.litellm.ai/docs/)  
-- [LiteLLM GitHub Repository](https://github.com/BerriAI/litellm)  
+### [Awesome AI Agents (e2b-dev)](https://github.com/e2b-dev/awesome-ai-agents)  
+A curated list of AI agent projects and tools. Useful for discovering new frameworks and applications.  
+**Notes:** Free and open-source.
 
-**Notes:** Free and open-source; ideal for lightweight LLM applications and local deployments.
+### [CrewAI (crewAIInc)](https://github.com/crewAIInc/crewAI)  
+An AI agent framework for building collaborative AI workflows.  
+**Notes:** Free and open-source.
 
-### AIlice
+### [Langflow Quickstart (docs.langflow.org)](https://docs.langflow.org/get-started-quickstart)  
+A visual tool for building and managing LLM workflows.  
+**Notes:** Free and open-source.
 
-AIlice is an AI agent framework aimed at building collaborative AI workflows and multi-agent systems. It provides tools and abstractions to create, manage, and orchestrate AI agents that can work together to solve complex tasks. The framework is open-source and supported by an active community, including a dedicated Reddit forum for discussions, support, and sharing use cases. AIlice is useful for developers looking to build modular AI systems with agent collaboration.  
+### [Haystack (deepset.ai)](https://haystack.deepset.ai/)  
+An open-source framework for building NLP pipelines and search systems with LLMs.  
+**Notes:** Free and open-source; enterprise options available.
 
-**Links:**  
-- [AIlice GitHub Repository](https://github.com/myshell-ai/AIlice)  
-- [AIlice Reddit Community](https://www.reddit.com/r/AIlice/)  
+### [Local LLM Coding Assistants and Tools](https://medium.com/@smfraser/how-to-use-a-local-llm-as-a-free-coding-copilot-in-vs-code-6dffc053369d)  
+Guide on using local LLMs as coding assistants in VS Code.  
+**Notes:** Free.
 
-**Notes:** Free and open-source; community-driven with active support channels.
+### [Local LLM Chatbot with Code Searches (deepgram.com)](https://deepgram.com/learn/local-llm-chatbot-that-can-run-code-searches)  
+Tutorial on building a local LLM chatbot capable of code searches.  
+**Notes:** Free.
 
-### LangManus
+### [Personal Copilot with Hugging Face (huggingface.co/blog/personal-copilot)](https://huggingface.co/blog/personal-copilot)  
+Guide on building a personal AI copilot using Hugging Face tools.  
+**Notes:** Free; some Hugging Face services may have paid tiers.
 
-LangManus is a tool designed to enhance application development and AI automation by providing a streamlined interface and automation capabilities. It supports developers in integrating AI-driven workflows into their applications, improving productivity and enabling advanced automation scenarios. There are tutorials and guides available for installation, testing, and leveraging LangManus features, along with video demonstrations.  
+### [Visual Studio Code AI Toolkit (techcommunity.microsoft.com)](https://techcommunity.microsoft.com/blog/educatordeveloperblog/visual-studio-code-ai-toolkit-run-llms-locally/4163192)  
+Microsoft's toolkit for running LLMs locally in VS Code.  
+**Notes:** Free.
 
-**Links:**  
-- [YouTube: LangManus Introduction and Demo](https://www.youtube.com/watch?v=3M_L3wUsNEw)  
-- [Leveraging LangManus for Enhanced Application Development and AI Automation (medium.com)](https://medium.com/@pankaj_pandey/leveraging-langmanus-for-enhanced-application-development-and-ai-automation-02d3b05baaa2)  
-- [How to Install and Test LangManus - Step-by-Step Guide (medium.com)](https://medium.com/@prabhudev.guntur/how-to-install-and-test-langmanus-a-step-by-step-guide-9185ea377a00)  
+### [Self-Hosted LLM Coding Assistants (semaphore.io)](https://semaphore.io/blog/selfhosted-llm-coding-assistants)  
+Overview of self-hosted coding assistants powered by LLMs.  
+**Notes:** Free.
 
-**Notes:** Free resources available; practical for developers interested in AI automation and app integration.
+### [n8n Local LLM Integration (blog.n8n.io)](https://blog.n8n.io/local-llm/)  
+Guide on integrating local LLMs with n8n workflow automation.  
+**Notes:** Free.
 
-### n8n
+### [Reddit: Starter Guide for Local LLaMA](https://www.reddit.com/r/LocalLLaMA/comments/16y95hk/a_starter_guide_for_playing_with_your_own_local_ai/)  
+Community guide for running local LLaMA models.  
+**Notes:** Free.
 
-n8n is a popular open-source workflow automation tool that supports integration with local large language models (LLMs) and AI services. It enables users to create complex automation workflows visually, connecting various APIs, databases, and AI models. n8n is widely used for automating repetitive tasks and orchestrating AI-powered processes in a no-code/low-code environment.  
+### [Udemy AI Engineering Courses (multiple)](https://www.udemy.com/course/the-ai-engineer-course-complete-ai-engineer-bootcamp/?couponCode=ST4MT20725G1)  
+Various paid courses on AI engineering and LLM app development.  
+**Notes:** Paid courses; discounts may be available.
 
-**Links:**  
-- [n8n Local LLM Integration (blog.n8n.io)](https://blog.n8n.io/local-llm/)  
-- [n8n vs Flowise Comparison (oxylabs.io)](https://oxylabs.io/blog/n8n-vs-flowise)  
+### [ScienceDirect Article on AI Agents](https://www.sciencedirect.com/science/article/pii/S266682702400046X)  
+Academic article discussing recent advances in AI agents.  
+**Notes:** Access may require subscription or institutional access.
 
-**Notes:** Free and open-source core; enterprise features may require subscription.
+### [Slashdot Discussions on AI Agents and Assistants](https://slashdot.org/software/ai-agents/linux/)  
+Community discussions on Linux AI agents and free AI assistants.  
+**Notes:** Free.
 
-### Flowise
+### [LAION-5B Dataset (laion.ai)](https://laion.ai/blog/laion-5b/)  
+Information on the LAION-5B open dataset for training large AI models.  
+**Notes:** Free and open.
 
-Flowise is a visual tool for LLM orchestration and AI companion development, designed to simplify the creation and management of AI workflows. It offers a user-friendly interface for building AI applications by connecting components and models visually, making it accessible to both developers and non-technical users. Flowise supports integration with various LLMs and AI tools, and is often compared with other workflow automation platforms like n8n.  
+### [MCP Pipedream (mcp.pipedream.com)](https://mcp.pipedream.com/)  
+Platform for building AI workflows and integrations.  
+**Notes:** Freemium model.
 
-**Links:**  
-- [DataCamp Flowise Tutorial](https://www.datacamp.com/tutorial/flowise)  
-- [Introducing Flowise - Visual Tool for LLM Orchestration (medium.com)](https://medium.com/@slrk4444/introducing-flowise-your-ultimate-visual-tool-for-llm-orchestration-and-ai-companion-development-71887123458f)  
+### [What LLM to Use (continuedev)](https://github.com/continuedev/what-llm-to-use)  
+A guide to choosing the right LLM for your needs.  
+**Notes:** Free and open-source.
 
-**Notes:** Free and open-source; some advanced features may require registration or subscription.
+### [YouTube: Local LLM Tutorial](https://www.youtube.com/watch?v=yG5Pvk9Bkqk&list=WL&index=22)  
+Video tutorial on working with local LLMs.  
+**Notes:** Free.
 
+### [AI (tylerprogramming)](https://github.com/tylerprogramming/ai)  
+A collection of AI projects, tools, and experiments. Useful for developers exploring practical AI implementations.  
+**Notes:** Free and open-source.
+
+### [AI System Development: LLM, RAG, AI Workflow, Agent (codelink.io)](https://www.codelink.io/blog/post/ai-system-development-llm-rag-ai-workflow-agent)  
+A blog post providing a practical overview of building AI systems using LLMs, retrieval-augmented generation (RAG), and agent workflows.  
+**Notes:** Free.
+
+### [arXiv:2506.10943](https://arxiv.org/pdf/2506.10943)  
+A recent academic paper (June 2025) on advanced AI agent systems, architectures, or evaluation.  
+**Notes:** Free to access; highly relevant for those seeking the latest research.
+
+---
 
 ## Theme 4: Enterprise AI Agents and Platforms
 
@@ -282,4 +358,4 @@ Platform for building AI workflows and integrations using MCP.
 
 ---
 
-P25-07-14*
+*Document last updated: 2025-07-07*
