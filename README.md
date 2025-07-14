@@ -188,6 +188,32 @@ Magentic-One is built on top of the AutoGen framework, leveraging its multi-agen
 
 ## Theme 3: AI Agent Development Guides and Learning Resources
 
+### LiteLLM
+LiteLLM is a lightweight, efficient large language model framework designed to enable easy deployment and usage of LLMs on local machines or edge devices. It focuses on minimal resource consumption while maintaining strong performance, making it suitable for developers and researchers who want to experiment with LLMs without requiring heavy infrastructure. The project is open-source and actively maintained, with comprehensive documentation and a GitHub repository for code and community contributions.  
+
+**Links:**  
+- [LiteLLM Official Site](https://www.litellm.ai/)  
+- [LiteLLM Documentation](https://docs.litellm.ai/docs/)  
+- [LiteLLM GitHub Repository](https://github.com/BerriAI/litellm)  
+**Notes:** Free and open-source; ideal for lightweight LLM applications and local deployments.
+
+### AIlice
+AIlice is an AI agent framework aimed at building collaborative AI workflows and multi-agent systems. It provides tools and abstractions to create, manage, and orchestrate AI agents that can work together to solve complex tasks. The framework is open-source and supported by an active community, including a dedicated Reddit forum for discussions, support, and sharing use cases. AIlice is useful for developers looking to build modular AI systems with agent collaboration.  
+
+**Links:**  
+- [AIlice GitHub Repository](https://github.com/myshell-ai/AIlice)  
+- [AIlice Reddit Community](https://www.reddit.com/r/AIlice/)  
+**Notes:** Free and open-source; community-driven with active support channels.
+
+### LangManus
+LangManus is a tool designed to enhance application development and AI automation by providing a streamlined interface and automation capabilities. It supports developers in integrating AI-driven workflows into their applications, improving productivity and enabling advanced automation scenarios. There are tutorials and guides available for installation, testing, and leveraging LangManus features, along with video demonstrations.  
+
+**Links:**  
+- [YouTube: LangManus Introduction and Demo](https://www.youtube.com/watch?v=3M_L3wUsNEw)  
+- [Leveraging LangManus for Enhanced Application Development and AI Automation (medium.com)](https://medium.com/@pankaj_pandey/leveraging-langmanus-for-enhanced-application-development-and-ai-automation-02d3b05baaa2)  
+- [How to Install and Test LangManus - Step-by-Step Guide (medium.com)](https://medium.com/@prabhudev.guntur/how-to-install-and-test-langmanus-a-step-by-step-guide-9185ea377a00)  
+**Notes:** Free resources available; practical for developers interested in AI automation and app integration.
+
 ### [Building Local AI Agents from Scratch - Developer's Guide (devthink.ai)](https://devthink.ai/p/building-local-ai-agents-from-scratch-a-developer-s-guide-using-ollama)  
 Step-by-step guide for building local AI agents using Ollama. Practical for developers wanting hands-on experience.  
 **Notes:** Verify if Ollama and related tools are current. Free.
