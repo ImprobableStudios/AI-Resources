@@ -156,6 +156,62 @@ Together, these components represent a growing ecosystem around AutoGen, support
 
 ## Theme 3: AI Agent Development Guides and Learning Resources
 
+
+## Theme 3: AI Agent Development Guides and Learning Resources
+
+### [YouTube: LangManus Introduction and Demo](https://www.youtube.com/watch?v=3M_L3wUsNEw)  
+Video introducing LangManus, a tool for enhanced application development and AI automation.  
+**Notes:** Free video resource.
+
+### [Leveraging LangManus for Enhanced Application Development and AI Automation (medium.com)](https://medium.com/@pankaj_pandey/leveraging-langmanus-for-enhanced-application-development-and-ai-automation-02d3b05baaa2)  
+Article explaining how to use LangManus for AI automation and app development.  
+**Notes:** Free article; useful for developers exploring AI automation.
+
+### [How to Install and Test LangManus - Step-by-Step Guide (medium.com)](https://medium.com/@prabhudev.guntur/how-to-install-and-test-langmanus-a-step-by-step-guide-9185ea377a00)  
+Detailed tutorial on installing and testing LangManus.  
+**Notes:** Free tutorial; practical for beginners.
+
+### [DataCamp AI Tutorials](https://www.datacamp.com/tutorial/category/ai)  
+Collection of AI tutorials covering various topics and tools.  
+**Notes:** Some content free; some require subscription.
+
+### [LiteLLM Official Site](https://www.litellm.ai/)  
+Official site for LiteLLM, a lightweight large language model framework.  
+**Notes:** Free and open-source.
+
+### [LiteLLM Documentation](https://docs.litellm.ai/docs/)  
+Comprehensive documentation for LiteLLM.  
+**Notes:** Free.
+
+### [LiteLLM GitHub Repository](https://github.com/BerriAI/litellm)  
+Source code and resources for LiteLLM.  
+**Notes:** Free and open-source.
+
+### [Open Source LLMs on Your Own Computer (manning.com)](https://www.manning.com/liveprojectseries/open-source-llms-on-your-own-computer)  
+Live project series teaching how to run open-source large language models locally.  
+**Notes:** Paid course; very useful for hands-on learning.
+
+### [DataCamp Flowise Tutorial](https://www.datacamp.com/tutorial/flowise)  
+Tutorial on Flowise, a visual tool for LLM orchestration and AI companion development.  
+**Notes:** Some content free; some require subscription.
+
+### [Introducing Flowise - Visual Tool for LLM Orchestration (medium.com)](https://medium.com/@slrk4444/introducing-flowise-your-ultimate-visual-tool-for-llm-orchestration-and-ai-companion-development-71887123458f)  
+Article introducing Flowise and its features for AI development.  
+**Notes:** Free article.
+
+### [n8n vs Flowise Comparison (oxylabs.io)](https://oxylabs.io/blog/n8n-vs-flowise)  
+Comparison of n8n and Flowise workflow automation tools.  
+**Notes:** Free article.
+
+### [AIlice GitHub Repository](https://github.com/myshell-ai/AIlice)  
+AIlice is an AI agent framework for collaborative AI workflows.  
+**Notes:** Free and open-source.
+
+### [AIlice Reddit Community](https://www.reddit.com/r/AIlice/)  
+Community forum for AIlice users and developers.  
+**Notes:** Free community resource.
+
+
 ### [Building Local AI Agents from Scratch - Developer's Guide (devthink.ai)](https://devthink.ai/p/building-local-ai-agents-from-scratch-a-developer-s-guide-using-ollama)  
 Step-by-step guide for building local AI agents using Ollama. Practical for developers wanting hands-on experience.  
 **Notes:** Verify if Ollama and related tools are current. Free.
@@ -326,4 +382,4 @@ Platform for building AI workflows and integrations using MCP.
 
 ---
 
-*Document last updated: 2025-07-07*
+P25-07-14*
