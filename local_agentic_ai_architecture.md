@@ -450,12 +450,12 @@ Based on our technical documentation, here's how to implement OAuth2 authenticat
 ## Implementation Steps
 
 1. **Install Required Dependencies**
-   ```bash
+   \```bash
    npm install passport passport-oauth2 express-session
-   ```
+   \```
 
 2. **Configure OAuth2 Strategy**
-   ```javascript
+   \```javascript
    const OAuth2Strategy = require('passport-oauth2');
    
    passport.use(new OAuth2Strategy({
@@ -468,16 +468,16 @@ Based on our technical documentation, here's how to implement OAuth2 authenticat
      // Handle user authentication
      return done(null, profile);
    }));
-   ```
+   \```
 
 3. **Set Up Routes**
-   ```javascript
+   \```javascript
    app.get('/auth', passport.authenticate('oauth2'));
    app.get('/auth/callback', 
      passport.authenticate('oauth2', { failureRedirect: '/login' }),
      (req, res) => res.redirect('/dashboard')
    );
-   ```
+   \```
 
 **Security Considerations:**
 - Store client secrets in environment variables
@@ -674,7 +674,7 @@ Technical Docs Agent Response:
 "Based on our technical documentation, here are the recommended approaches for PostgreSQL connections in Python:
 
 ## Using psycopg2 (Recommended)
-```python
+\```python
 import psycopg2
 from psycopg2 import sql
 
@@ -702,7 +702,7 @@ finally:
     if conn:
         cursor.close()
         conn.close()
-```
+\```
 
 **Sources:** Python Database Guide (Section 2.1), PostgreSQL Integration Patterns
 **Confidence:** High (95%)"
@@ -1168,7 +1168,7 @@ Tools Agent Response:
 - **Verification**: Checksum validated ✅
 
 ### 2. Directory Organization
-```
+\```
 /projects/legacy-app/docs/
 ├── api-documentation/     (23 files)
 ├── architecture/          (12 files)
@@ -1176,7 +1176,7 @@ Tools Agent Response:
 ├── technical-specs/      (67 files)
 ├── meeting-notes/        (78 files)
 └── archived/             (22 files)
-```
+\```
 
 ### 3. Index Generation
 - **Created**: `README.md` with file inventory
@@ -1219,7 +1219,7 @@ Tools Agent Response:
 - **Unique Customers**: 8,234
 
 ### Customer Segmentation
-```json
+\```json
 {
   "enterprise_customers": {
     "count": 127,
@@ -1237,7 +1237,7 @@ Tools Agent Response:
     "percentage": 20.0
   }
 }
-```
+\```
 
 ### Top Performing Products
 1. **Enterprise License**: $892,445 (31.3%)
@@ -1537,13 +1537,13 @@ Based on our technical documentation, here's a comprehensive implementation guid
 ## Implementation Steps
 
 ### 1. Install Dependencies
-```bash
+\```bash
 npm install passport passport-oauth2 express-session connect-redis
 npm install --save-dev @types/passport @types/express-session
-```
+\```
 
 ### 2. Configure OAuth2 Strategy
-```javascript
+\```javascript
 // config/oauth.js
 const OAuth2Strategy = require('passport-oauth2');
 const passport = require('passport');
@@ -1564,10 +1564,10 @@ passport.use('oauth2', new OAuth2Strategy({
     return done(error, null);
   }
 }));
-```
+\```
 
 ### 3. Set Up Authentication Routes
-```javascript
+\```javascript
 // routes/auth.js
 const express = require('express');
 const passport = require('passport');
@@ -1597,10 +1597,10 @@ router.post('/logout', (req, res) => {
 });
 
 module.exports = router;
-```
+\```
 
 ### 4. Implement Token Validation Middleware
-```javascript
+\```javascript
 // middleware/auth.js
 const jwt = require('jsonwebtoken');
 
@@ -1625,12 +1625,12 @@ const validateToken = async (req, res, next) => {
 };
 
 module.exports = { validateToken };
-```
+\```
 
 ## Security Considerations
 
 ### Environment Variables
-```bash
+\```bash
 # .env
 OAUTH2_CLIENT_ID=your_client_id
 OAUTH2_CLIENT_SECRET=your_client_secret
@@ -1638,7 +1638,7 @@ OAUTH2_AUTH_URL=https://provider.com/oauth2/authorize
 OAUTH2_TOKEN_URL=https://provider.com/oauth2/token
 OAUTH2_CALLBACK_URL=https://yourapp.com/auth/oauth2/callback
 SESSION_SECRET=your_session_secret
-```
+\```
 
 ### Production Security Checklist
 - ✅ Use HTTPS for all OAuth2 endpoints
@@ -1649,7 +1649,7 @@ SESSION_SECRET=your_session_secret
 - ✅ Log authentication events for monitoring
 
 ## Testing
-```javascript
+\```javascript
 // tests/auth.test.js
 const request = require('supertest');
 const app = require('../app');
@@ -1668,7 +1668,7 @@ describe('OAuth2 Authentication', () => {
     // Test callback handling
   });
 });
-```
+\```
 
 **Sources:**
 - Technical Documentation: `nodejs_auth_patterns.md` (Section 3.2)
@@ -2407,7 +2407,7 @@ Primary Agent Request:
 ## n8n Workflow Configuration
 
 ### Workflow Nodes Structure
-```json
+\```json
 {
   "workflow_name": "database_migration_orchestration",
   "nodes": [
@@ -2452,7 +2452,7 @@ Primary Agent Request:
     }
   ]
 }
-```
+\```
 
 ## Risk Mitigation and Contingencies
 
@@ -2750,7 +2750,7 @@ Primary Agent Request:
 ## Schema Analysis Results
 
 ### Table Structure Overview
-```sql
+\```sql
 -- Current schema statistics
 SELECT 
     schemaname,
@@ -2762,7 +2762,7 @@ SELECT
     n_dead_tup as dead_rows
 FROM pg_stat_user_tables 
 WHERE schemaname = 'customer_data';
-```
+\```
 
 **Results:**
 | Table Name | Live Rows | Data Size | Last Vacuum | Indexes |
@@ -2773,7 +2773,7 @@ WHERE schemaname = 'customer_data';
 | customer_orders | 15,234,567 | 4.8 GB | 2025-07-29 | 12 |
 
 ### Data Type Analysis
-```sql
+\```sql
 -- Column data types and constraints
 SELECT 
     table_name,
@@ -2785,7 +2785,7 @@ SELECT
 FROM information_schema.columns 
 WHERE table_schema = 'customer_data'
 ORDER BY table_name, ordinal_position;
-```
+\```
 
 **Key Findings:**
 - **Legacy Data Types**: 15 columns using deprecated `text` type
@@ -2801,7 +2801,7 @@ ORDER BY table_name, ordinal_position;
 3. **Active Connections**: Average 45 concurrent connections during business hours
 
 #### Recommended Migration Strategy
-```sql
+\```sql
 -- Suggested migration phases
 -- Phase 1: Schema preparation (estimated 2 hours)
 CREATE SCHEMA customer_data_v2;
@@ -2814,7 +2814,7 @@ CREATE SCHEMA customer_data_v2;
 -- Phase 3: Index rebuilding (estimated 1-2 hours)
 -- Rebuild indexes with optimized parameters
 -- Update table statistics
-```
+\```
 
 ## File Operations Completed
 
