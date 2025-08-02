@@ -21,20 +21,20 @@ This document is designed to be a living resource that evolves over time as new 
 5. **Date and Version Awareness:**  
    Prioritize resources from 2024 onward for relevance. Always check if official documentation or tools have newer stable versions.
 
-6. **Review Existing Resources When Adding New Ones:**  
-   When new resources are added, review existing entries to determine if they have become outdated or unmaintained due to newer frameworks, versions, or project status changes. Update notes accordingly to keep the document accurate.
-
-7. **Check for Duplicates and Merge:**  
-   Before adding new resources, check if similar or duplicate entries exist. Merge information to avoid redundancy and keep the document concise.
-
-8. **Note Costs or Fees:**  
+6. **Note Costs or Fees:**  
    For each resource, note if there is an associated cost, subscription fee, or if it is free/open-source. This helps users understand potential barriers to adoption.
 
-9. **Keep the Summary Notes Updated:**  
+7. **Keep the Summary Notes Updated:**  
    Adjust the summary notes section to reflect new trends, deprecated tools, or emerging best practices.
 
-10. **Update the Document Timestamp:**  
+8. **Update the Document Timestamp:**  
     Always update the "Document last updated" date at the bottom to reflect the latest revision.
+
+9. **Duplicate Links Handling:**  
+    When adding new links, do NOT remove existing links. If a provided new link exactly duplicates an existing one, do not add it and report it as a duplicate. Existing links may be reorganized as needed. The same link may appear in multiple sections as cross-references.
+
+10. **GitHub Repository Maintenance Check:**  
+    For GitHub links, check the last commit date to assess maintenance status and note this in the entry.
 
 ---
 
@@ -372,6 +372,27 @@ Platform for building AI workflows and integrations using MCP.
 
 **Notes:** All above are free and open-source unless otherwise noted.
 
+### n8n AI Workflow Tools and Integrations
+
+- [n8n-mcp (czlonkowski)](https://github.com/czlonkowski/n8n-mcp): MCP integration for n8n workflow automation.  
+- [n8n-nodes-puppeteer (drudge)](https://github.com/drudge/n8n-nodes-puppeteer): Puppeteer nodes for n8n automation workflows.  
+- [awesome-n8n-templates (enescingoz)](https://github.com/enescingoz/awesome-n8n-templates): Curated templates for n8n workflows.  
+- [n8n-mcp-serve (illuminaresolutions)](https://github.com/illuminaresolutions/n8n-mcp-serve): MCP server for n8n.  
+- [nodewriter (ivov)](https://github.com/ivov/nodewriter): AI writing assistant integrated with n8n.  
+- [Stride-AI-Agents (joshpocock)](https://github.com/joshpocock/Stride-AI-Agents): AI agents for n8n workflows.  
+- [n8n_agent (kingler)](https://github.com/kingler/n8n_agent): AI agent integration for n8n.  
+- [n8n-ai-workflows (lucaswalter)](https://github.com/lucaswalter/n8n-ai-workflows): Collection of AI workflows for n8n.  
+- [n8n-workflow-builder (makafeli)](https://github.com/makafeli/n8n-workflow-builder): Tool for building n8n workflows.  
+- [n8n-nodes-comfyui (mason276752)](https://github.com/mason276752/n8n-nodes-comfyui): ComfyUI nodes for n8n.  
+- [ultimate-n8n-ai-workflows (oxbshw)](https://github.com/oxbshw/ultimate-n8n-ai-workflows): Advanced AI workflows for n8n.  
+- [Rapid-Product-Development-with-n8n (PacktPublishing)](https://github.com/PacktPublishing/Rapid-Product-Development-with-n8n): Guide and examples for rapid product development using n8n.  
+- [awesome-n8n (restyler)](https://github.com/restyler/awesome-n8n): Curated list of n8n resources and workflows.  
+- [mcp-n8n-workflow-builder (salacoste)](https://github.com/salacoste/mcp-n8n-workflow-builder): MCP workflow builder for n8n.  
+- [aichat (sigoden)](https://github.com/sigoden/aichat): AI chat integration for n8n.  
+- [n8n-ultimate-scraper (Touxan)](https://github.com/Touxan/n8n-ultimate-scraper): Web scraping workflows for n8n.
+
+**Notes:** All above are free and open-source; check individual repos for maintenance status.
+
 ---
 
 ## Summary Notes on Outdated Content and Maintenance
@@ -384,4 +405,4 @@ Platform for building AI workflows and integrations using MCP.
 
 ---
 
-*Document last updated: 2025-07-07*
+*Document last updated: 2025-08-02*
