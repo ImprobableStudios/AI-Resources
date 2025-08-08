@@ -40,6 +40,8 @@ This document is designed to be a living resource that evolves over time as new 
 
 ## Theme 1: Local AI and AGI Examples & Frameworks
 
+_These resources focus on local AI frameworks, self-hosted AGI projects, and tools for running models without cloud dependencies._
+
 ### [LocalAI-examples (mudler)](https://github.com/mudler/LocalAI-examples)  
 A collection of examples demonstrating LocalAI usage. Useful for developers wanting to run AI models locally without cloud dependencies.  
 **Notes:** Check for recent updates; local AI frameworks evolve fast, so some examples might rely on older versions. Free and open-source.
@@ -75,6 +77,8 @@ A repository focused on open-source AI hands-on projects and tools. Useful for p
 ---
 
 ## Theme 2: AutoGen Framework and Magentic Ecosystem
+
+_Covers Microsoft's AutoGen framework and the Magentic-One multi-agent system, with resources for learning, implementation, and extending capabilities._
 
 AutoGen is an open-source framework developed by Microsoft designed to facilitate the creation of multi-agent AI applications. It enables developers to build complex workflows by orchestrating multiple AI agents that can communicate, collaborate, and perform tasks autonomously. AutoGen emphasizes modularity, scalability, and ease of use, making it a state-of-the-art platform for generative AI applications.
 
@@ -187,6 +191,8 @@ Magentic-One is built on top of the AutoGen framework, leveraging its multi-agen
 ---
 
 ## Theme 3: AI Agent Development Guides and Learning Resources
+
+_Guides, tutorials, and community projects for building AI agents, integrating LLMs, and developing AI-driven workflows._
 
 ### LiteLLM
 LiteLLM is a lightweight, efficient large language model framework designed to enable easy deployment and usage of LLMs on local machines or edge devices. It focuses on minimal resource consumption while maintaining strong performance, making it suitable for developers and researchers who want to experiment with LLMs without requiring heavy infrastructure. The project is open-source and actively maintained, with comprehensive documentation and a GitHub repository for code and community contributions.  
@@ -314,6 +320,8 @@ A recent academic paper (June 2025) on advanced AI agent systems, architectures,
 
 ## Theme 4: Enterprise AI Agents and Platforms
 
+_Enterprise-level AI agent platforms, frameworks, and research for deploying and managing large-scale multi-agent systems._
+
 ### [AgentSpace Enterprise Gallery (cloud.google.com)](https://cloud.google.com/agentspace/agentspace-enterprise/docs/agents-gallery)  
 Google Cloud’s AgentSpace platform showcasing enterprise AI agents and workflows. Useful for organizations looking to deploy AI agents at scale.  
 **Notes:** Enterprise platform; usage may incur costs.
@@ -340,6 +348,8 @@ Google AI has introduced MASS, a new framework for optimizing multi-agent AI sys
 ---
 
 ## Theme 5: Model Context Protocol (MCP) Ecosystem
+
+_Resources and tools for the Model Context Protocol (MCP), enabling integration and orchestration of AI agents in local and privacy-focused environments._
 
 The Model Context Protocol (MCP) is an emerging standard and ecosystem for integrating, orchestrating, and automating AI agents and tools, especially in local and privacy-focused environments. Below are key resources and projects in the MCP space:
 
@@ -373,27 +383,111 @@ Platform for building AI workflows and integrations using MCP.
 **Notes:** All above are free and open-source unless otherwise noted.
 
 ### n8n AI Workflow Tools and Integrations
-
-- [n8n-mcp (czlonkowski)](https://github.com/czlonkowski/n8n-mcp): MCP integration for n8n workflow automation.  
-- [n8n-nodes-puppeteer (drudge)](https://github.com/drudge/n8n-nodes-puppeteer): Puppeteer nodes for n8n automation workflows.  
-- [awesome-n8n-templates (enescingoz)](https://github.com/enescingoz/awesome-n8n-templates): Curated templates for n8n workflows.  
-- [n8n-mcp-serve (illuminaresolutions)](https://github.com/illuminaresolutions/n8n-mcp-serve): MCP server for n8n.  
-- [nodewriter (ivov)](https://github.com/ivov/nodewriter): AI writing assistant integrated with n8n.  
-- [Stride-AI-Agents (joshpocock)](https://github.com/joshpocock/Stride-AI-Agents): AI agents for n8n workflows.  
-- [n8n_agent (kingler)](https://github.com/kingler/n8n_agent): AI agent integration for n8n.  
-- [n8n-ai-workflows (lucaswalter)](https://github.com/lucaswalter/n8n-ai-workflows): Collection of AI workflows for n8n.  
-- [n8n-workflow-builder (makafeli)](https://github.com/makafeli/n8n-workflow-builder): Tool for building n8n workflows.  
-- [n8n-nodes-comfyui (mason276752)](https://github.com/mason276752/n8n-nodes-comfyui): ComfyUI nodes for n8n.  
-- [ultimate-n8n-ai-workflows (oxbshw)](https://github.com/oxbshw/ultimate-n8n-ai-workflows): Advanced AI workflows for n8n.  
-- [Rapid-Product-Development-with-n8n (PacktPublishing)](https://github.com/PacktPublishing/Rapid-Product-Development-with-n8n): Guide and examples for rapid product development using n8n.  
-- [awesome-n8n (restyler)](https://github.com/restyler/awesome-n8n): Curated list of n8n resources and workflows.  
-- [mcp-n8n-workflow-builder (salacoste)](https://github.com/salacoste/mcp-n8n-workflow-builder): MCP workflow builder for n8n.  
 - [aichat (sigoden)](https://github.com/sigoden/aichat): AI chat integration for n8n.  
+- [awesome-n8n (restyler)](https://github.com/restyler/awesome-n8n): Curated list of n8n resources and workflows.  
+- [awesome-n8n-templates (enescingoz)](https://github.com/enescingoz/awesome-n8n-templates): Curated templates for n8n workflows.  
+- [mcp-n8n-workflow-builder (salacoste)](https://github.com/salacoste/mcp-n8n-workflow-builder): MCP workflow builder for n8n.  
+- [n8n-ai-workflows (lucaswalter)](https://github.com/lucaswalter/n8n-ai-workflows): Collection of AI workflows for n8n.  
+- [n8n-free-templates (wassupjay)](https://github.com/wassupjay/n8n-free-templates): A collection of free n8n workflow templates.
+- [n8n-mcp (czlonkowski)](https://github.com/czlonkowski/n8n-mcp): MCP integration for n8n workflow automation.  
+- [n8n-mcp-serve (illuminaresolutions)](https://github.com/illuminaresolutions/n8n-mcp-serve): MCP server for n8n.  
+- [n8n-nodes-comfyui (mason276752)](https://github.com/mason276752/n8n-nodes-comfyui): ComfyUI nodes for n8n.  
+- [n8n-nodes-puppeteer (drudge)](https://github.com/drudge/n8n-nodes-puppeteer): Puppeteer nodes for n8n automation workflows.  
 - [n8n-ultimate-scraper (Touxan)](https://github.com/Touxan/n8n-ultimate-scraper): Web scraping workflows for n8n.
+- [n8n-workflow-builder (makafeli)](https://github.com/makafeli/n8n-workflow-builder): Tool for building n8n workflows.  
+- [n8n-workflows (Zie619)](https://github.com/Zie619/n8n-workflows): Additional n8n workflows.
+- [n8n_agent (kingler)](https://github.com/kingler/n8n_agent): AI agent integration for n8n.  
+- [nodewriter (ivov)](https://github.com/ivov/nodewriter): AI writing assistant integrated with n8n.  
+- [Rapid-Product-Development-with-n8n (PacktPublishing)](https://github.com/PacktPublishing/Rapid-Product-Development-with-n8n): Guide and examples for rapid product development using n8n.  
+- [Stride-AI-Agents (joshpocock)](https://github.com/joshpocock/Stride-AI-Agents): AI agents for n8n workflows.  
+- [ultimate-n8n-ai-workflows (oxbshw)](https://github.com/oxbshw/ultimate-n8n-ai-workflows): Advanced AI workflows for n8n.  
+*For specific workflow templates and node packages, see Appendix: Useful n8n Workspaces and Nodes.*
+
 
 **Notes:** All above are free and open-source; check individual repos for maintenance status.
 
 ---
+
+## Theme 6: AI Coding Assistants and Development Tools
+
+_Open-source AI-powered coding assistants, prompt libraries, and tools for software development productivity._
+
+### [Kilo Code Documentation | Kilo Code Docs](https://kilocode.ai/docs/)
+Official documentation for Kilo Code, an open-source AI coding assistant.
+**Notes:** Free and open-source.
+
+### [Kilo-Org/kilocode](https://github.com/Kilo-Org/kilocode)
+GitHub repository for Kilo Code, an open-source AI coding assistant for planning, building, and fixing code.
+**Notes:** Free and open-source; actively maintained.
+
+### [jamesponddotco/llm-prompts](https://github.com/jamesponddotco/llm-prompts/)
+A collection of prompts for enhancing productivity with large language models.
+**Notes:** Free and open-source.
+
+---
+
+## Theme 7: AI Video Generation
+
+_Tools and frameworks for AI-driven video generation and processing._
+
+### [deepbeepmeep/Wan2GP](https://github.com/deepbeepmeep/Wan2GP)
+A fast AI Video Generator for the GPU Poor. Supports Wan 2.1/2.2, Hunyuan Video, LTX Video and Flux.
+**Notes:** Free and open-source.
+
+---
+
+## Theme 8: LLM Orchestration and AI Companion Development
+
+_Resources for orchestrating LLM workflows and building AI companions using visual and programmatic tools._
+
+### [Introducing Flowise: Your Ultimate Visual Tool for LLM Orchestration and AI Companion Development (medium.com)](https://medium.com/@slrk4444/introducing-flowise-your-ultimate-visual-tool-for-llm-orchestration-and-ai-companion-development-71887123458f)
+An introduction to Flowise, a visual tool for building and managing LLM workflows and AI companions.
+**Notes:** Free resource; Flowise itself is open-source.
+
+### [n8n vs Flowise (oxylabs.io)](https://oxylabs.io/blog/n8n-vs-flowise)
+A comparison article between n8n and Flowise for workflow automation and LLM orchestration.
+**Notes:** Free resource.
+
+### [Flowise Tutorial (datacamp.com)](https://www.datacamp.com/tutorial/flowise)
+A tutorial on using Flowise for LLM orchestration.
+**Notes:** Free resource; DataCamp may have paid courses.
+
+### [PocketFlow (the-pocket.github.io)](https://the-pocket.github.io/PocketFlow/)
+A project related to AI workflows or LLM orchestration.
+**Notes:** Free and open-source; check for maintenance status.
+
+---
+
+## Theme 9: General AI Resources and Platforms
+
+_A broad range of AI resources, including model directories, datasets, and search tools for AI integrations._
+
+### [Models | OpenRouter](https://openrouter.ai/models?max_price=0)
+A platform listing various AI models, with options to filter by price (e.g., free models).
+**Notes:** Free models available; paid models may incur costs.
+
+### [keywords:n8n-community-node-package - npm search](https://www.npmjs.com/search?q=keywords%3An8n-community-node-package)
+Search results for n8n community node packages on npm. Useful for extending n8n functionalities.
+**Notes:** Free and open-source packages.
+
+---
+
+## Appendix: Useful n8n Workspaces and Nodes
+
+This appendix contains specific n8n Workspace and Node resources. In future updates to this document, such items should be placed here rather than in the main "n8n AI Workflow Tools and Integrations" section. This ensures the main section contains broader, more general resources, while this appendix remains the go-to location for precise workflow or node template references.
+
+### Specific n8n Workflow Templates and Node Links
+
+- [🔐🦙🤖 Private & Local Ollama Self-Hosted AI Assistant | n8n workflow template](https://n8n.io/workflows/2729-private-and-local-ollama-self-hosted-ai-assistant/)
+- [Anthropic AI Agent: Claude Sonnet 4 and Opus 4 with Think and Web Search tool | n8n workflow template](https://n8n.io/workflows/4399-anthropic-ai-agent-claude-sonnet-4-and-opus-4-with-think-and-web-search-tool/)
+- [News Research and Sentiment Analysis AI Agent with Gemini and SearXNG | n8n workflow template](https://n8n.io/workflows/5286-news-research-and-sentiment-analysis-ai-agent-with-gemini-and-searxng/)
+- [🧠 Empower Your AI Chatbot with Long-Term Memory and Dynamic Tool Routing | n8n workflow template](https://n8n.io/workflows/3025-empower-your-ai-chatbot-with-long-term-memory-and-dynamic-tool-routing/)
+- [Build Custom Workflows Automatically with GPT-4o, RAG, and Web Search | n8n workflow template](https://n8n.io/workflows/5024-build-custom-workflows-automatically-with-gpt-4o-rag-and-web-search/)
+- [🤖 Create Your First AI Agent with Weather & Web Scraping (Starter Kit) | n8n workflow template](https://n8n.io/workflows/6035-create-your-first-ai-agent-with-weather-and-web-scraping-starter-kit/)
+- [💥🛠️Build a Web Search Chatbot with GPT-4o and MCP Brave Search | n8n workflow template](https://n8n.io/workflows/3189-build-a-web-search-chatbot-with-gpt-4o-and-mcp-brave-search/)
+- [🤖 Build an Interactive AI Agent with Chat Interface and Multiple Tools | n8n workflow template](https://n8n.io/workflows/5819-build-an-interactive-ai-agent-with-chat-interface-and-multiple-tools/)
+- [keywords:n8n-community-node-package - npm search](https://www.npmjs.com/search?q=keywords%3An8n-community-node-package)
+
 
 ## Summary Notes on Outdated Content and Maintenance
 
@@ -405,4 +499,4 @@ Platform for building AI workflows and integrations using MCP.
 
 ---
 
-*Document last updated: 2025-08-02*
+*Document last updated: 2025-08-08*
