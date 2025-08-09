@@ -401,10 +401,13 @@ Platform for building AI workflows and integrations using MCP.
 - [Rapid-Product-Development-with-n8n (PacktPublishing)](https://github.com/PacktPublishing/Rapid-Product-Development-with-n8n): Guide and examples for rapid product development using n8n.  
 - [Stride-AI-Agents (joshpocock)](https://github.com/joshpocock/Stride-AI-Agents): AI agents for n8n workflows.  
 - [ultimate-n8n-ai-workflows (oxbshw)](https://github.com/oxbshw/ultimate-n8n-ai-workflows): Advanced AI workflows for n8n.  
-*For specific workflow templates and node packages, see Appendix: Useful n8n Workspaces and Nodes.*
-
+- [n8n-nodes-docker - npm](https://www.npmjs.com/package/n8n-nodes-docker): An npm package providing n8n nodes for Docker automation and integration.  
+  **Notes:** Free and open-source; check for maintenance status and compatibility with the current n8n version.
+- [venssy/n8n-nodes-docker](https://github.com/venssy/n8n-nodes-docker): GitHub repository for the `n8n-nodes-docker` package.
 
 **Notes:** All above are free and open-source; check individual repos for maintenance status.
+
+*For specific workflow templates and node packages, see Appendix: Useful n8n Workspaces and Nodes.*
 
 ---
 
@@ -488,15 +491,14 @@ This appendix contains specific n8n Workspace and Node resources. In future upda
 - [🤖 Build an Interactive AI Agent with Chat Interface and Multiple Tools | n8n workflow template](https://n8n.io/workflows/5819-build-an-interactive-ai-agent-with-chat-interface-and-multiple-tools/)
 - [keywords:n8n-community-node-package - npm search](https://www.npmjs.com/search?q=keywords%3An8n-community-node-package)
 
-
+---
 ## Summary Notes on Outdated Content and Maintenance
 
-- Projects referencing AutoGen versions before 0.4 (notably 0.2) may be outdated due to rapid framework evolution.  
-- Local AI and AGI projects should be checked for recent commits to ensure active maintenance.  
-- Tutorials and guides dated 2024 or later are more likely to be current and relevant.  
-- Official docs and no-code tools like AutoGen Studio v0.4 are highly recommended for up-to-date usage.  
+- Projects referencing AutoGen versions before 0.4 (notably 0.2) may be outdated due to rapid framework evolution.
+- Local AI and AGI projects should be checked for recent commits to ensure active maintenance.
+- Tutorials and guides dated 2024 or later are more likely to be current and relevant.
+- Official docs and no-code tools like AutoGen Studio v0.4 are highly recommended for up-to-date usage.
 - Many resources are free and open-source; some platforms and courses have associated costs or subscription fees—these are noted where applicable.
 
 ---
-
-*Document last updated: 2025-08-08*
+*Document last updated: 2025-08-09*
