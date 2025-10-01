@@ -244,125 +244,129 @@ LangManus is a tool designed to enhance application development and AI automatio
 * [How to Install and Test LangManus - Step-by-Step Guide (medium.com)](https://medium.com/@prabhudev.guntur/how-to-install-and-test-langmanus-a-step-by-step-guide-9185ea377a00)
   **Notes:** Free resources available; practical for developers interested in AI automation and app integration.
 
-### [Building Local AI Agents from Scratch - Developer's Guide (devthink.ai)](https://devthink.ai/p/building-local-ai-agents-from-scratch-a-developer-s-guide-using-ollama)
+### LlamaIndex (RAG Framework)
 
-Step-by-step guide for building local AI agents using Ollama. Practical for developers wanting hands-on experience.
-**Notes:** Verify if Ollama and related tools are current. Free.
+LlamaIndex is a data framework for connecting large language models to external data. It provides the tools necessary to ingest, structure, and access private or domain-specific data, making it essential for building Retrieval-Augmented Generation (RAG) applications.
 
-### [Open Source LLMs on Your Own Computer (manning.com)](https://www.manning.com/liveprojectseries/open-source-llms-on-your-own-computer)
+* [LlamaIndex GitHub Repository](https://github.com/run-llama/llama_index?tab=readme-ov-file)
+  The official open-source repository for the LlamaIndex framework. Free and open-source.
+* [LlamaIndex Developer Site](https://developers.llamaindex.ai/)
+  Official site with documentation, tutorials, and guides for using LlamaIndex. Free.
+* [LlamaHub](https://llamahub.ai/)
+  A repository of data loaders, tools, and components for LlamaIndex, enabling connections to various data sources. Free and open-source.
+* [LlamaIndex Python Workflows](https://developers.llamaindex.ai/python/workflows/)
+  Guides and examples for building complete RAG and AI agent workflows using the Python package. Free.
+* [LlamaIndex and LiteLLM Example](https://developers.llamaindex.ai/python/examples/llm/litellm/)
+  Example demonstrating the integration of LiteLLM with LlamaIndex, combining LLM flexibility with powerful RAG capabilities. Free.
+* [RAG-Anything (HKUDS)](https://github.com/HKUDS/RAG-Anything)
+  An open-source research project on RAG that is a valuable reference for advanced RAG techniques. Free and open-source.
 
-Live project series teaching how to run open-source large language models locally. Very useful for hands-on learning.
-**Notes:** Check for updates as LLMs evolve quickly. Paid course.
+### General Agent and LLM Learning
 
-### [Magnetic LLM Guide (algotrading101.com)](https://algotrading101.com/learn/magentic-llm-guide/)
+* [Building Local AI Agents from Scratch - Developer's Guide (devthink.ai)](https://devthink.ai/p/building-local-ai-agents-from-scratch-a-developer-s-guide-using-ollama)
+  Step-by-step guide for building local AI agents using Ollama. Practical for developers wanting hands-on experience.
+  **Notes:** Verify if Ollama and related tools are current. Free.
 
-Guide focused on Magnetic LLM, possibly for algorithmic trading or specialized LLM use. Niche but useful for specific applications.
-**Notes:** Confirm if Magnetic LLM is actively maintained. Free guide; Magnetic platform may have costs.
+* [Open Source LLMs on Your Own Computer (manning.com)](https://www.manning.com/liveprojectseries/open-source-llms-on-your-own-computer)
+  Live project series teaching how to run open-source large language models locally. Very useful for hands-on learning.
+  **Notes:** Check for updates as LLMs evolve quickly. Paid course.
 
-### [Awesome AI Agents (e2b-dev)](https://github.com/e2b-dev/awesome-ai-agents)
+* [Magnetic LLM Guide (algotrading101.com)](https://algotrading101.com/learn/magentic-llm-guide/)
+  Guide focused on Magnetic LLM, possibly for algorithmic trading or specialized LLM use. Niche but useful for specific applications.
+  **Notes:** Confirm if Magnetic LLM is actively maintained. Free guide; Magnetic platform may have costs.
 
-A curated list of AI agent projects and tools. Useful for discovering new frameworks and applications.
-**Notes:** Free and open-source.
+* [Awesome AI Agents (e2b-dev)](https://github.com/e2b-dev/awesome-ai-agents)
+  A curated list of AI agent projects and tools. Useful for discovering new frameworks and applications.
+  **Notes:** Free and open-source.
 
-### [CrewAI (crewAIInc)](https://github.com/crewAIInc/crewAI)
+* [CrewAI (crewAIInc)](https://github.com/crewAIInc/crewAI)
+  An AI agent framework for building collaborative AI workflows.
+  **Notes:** Free and open-source.
 
-An AI agent framework for building collaborative AI workflows.
-**Notes:** Free and open-source.
+* [Langflow Quickstart (docs.langflow.org)](https://docs.langflow.org/get-started-quickstart)
+  A visual tool for building and managing LLM workflows.
+  **Notes:** Free and open-source.
 
-### [Langflow Quickstart (docs.langflow.org)](https://docs.langflow.org/get-started-quickstart)
+* [Haystack (deepset.ai)](https://haystack.deepset.ai/)
+  An open-source framework for building NLP pipelines and search systems with LLMs.
+  **Notes:** Free and open-source; enterprise options available.
 
-A visual tool for building and managing LLM workflows.
-**Notes:** Free and open-source.
+* [Local LLM Coding Assistants and Tools](https://medium.com/@smfraser/how-to-use-a-local-llm-as-a-free-coding-copilot-in-vs-code-6dffc053369d)
+  Guide on using local LLMs as coding assistants in VS Code.
+  **Notes:** Free.
 
-### [Haystack (deepset.ai)](https://haystack.deepset.ai/)
+* [Local LLM Chatbot with Code Searches (deepgram.com)](https://deepgram.com/learn/local-llm-chatbot-that-can-run-code-searches)
+  Tutorial on building a local LLM chatbot capable of code searches.
+  **Notes:** Free.
 
-An open-source framework for building NLP pipelines and search systems with LLMs.
-**Notes:** Free and open-source; enterprise options available.
+* [Personal Copilot with Hugging Face (huggingface.co/blog/personal-copilot)](https://huggingface.co/blog/personal-copilot)
+  Guide on building a personal AI copilot using Hugging Face tools.
+  **Notes:** Free; some Hugging Face services may have paid tiers.
 
-### [Local LLM Coding Assistants and Tools](https://medium.com/@smfraser/how-to-use-a-local-llm-as-a-free-coding-copilot-in-vs-code-6dffc053369d)
+* [Visual Studio Code AI Toolkit (techcommunity.microsoft.com)](https://techcommunity.microsoft.com/blog/educatordeveloperblog/visual-studio-code-ai-toolkit-run-llms-locally/4163192)
+  Microsoft's toolkit for running LLMs locally in VS Code.
+  **Notes:** Free.
 
-Guide on using local LLMs as coding assistants in VS Code.
-**Notes:** Free.
+* [Self-Hosted LLM Coding Assistants (semaphore.io)](https://semaphore.io/blog/selfhosted-llm-coding-assistants)
+  Overview of self-hosted coding assistants powered by LLMs.
+  **Notes:** Free.
 
-### [Local LLM Chatbot with Code Searches (deepgram.com)](https://deepgram.com/learn/local-llm-chatbot-that-can-run-code-searches)
+* [n8n Local LLM Integration (blog.n8n.io)](https://blog.n8n.io/local-llm/)
+  Guide on integrating local LLMs with n8n workflow automation.
+  **Notes:** Free.
 
-Tutorial on building a local LLM chatbot capable of code searches.
-**Notes:** Free.
+* [Reddit: Starter Guide for Local LLaMA](https://www.reddit.com/r/LocalLLaMA/comments/16y95hk/a_starter_guide_for_playing_with-your-own-local-ai/)
+  Community guide for running local LLaMA models.
+  **Notes:** Free.
 
-### [Personal Copilot with Hugging Face (huggingface.co/blog/personal-copilot)](https://huggingface.co/blog/personal-copilot)
+* [Udemy AI Engineering Courses (multiple)](https://www.udemy.com/course/the-ai-engineer-course-complete-ai-engineer-bootcamp/?couponCode=ST4MT20725G1)
+  Various paid courses on AI engineering and LLM app development.
+  **Notes:** Paid courses; discounts may be available.
 
-Guide on building a personal AI copilot using Hugging Face tools.
-**Notes:** Free; some Hugging Face services may have paid tiers.
+* [ScienceDirect Article on AI Agents](https://www.sciencedirect.com/science/article/pii/S266682702400046X)
+  Academic article discussing recent advances in AI agents.
+  **Notes:** Access may require subscription or institutional access.
 
-### [Visual Studio Code AI Toolkit (techcommunity.microsoft.com)](https://techcommunity.microsoft.com/blog/educatordeveloperblog/visual-studio-code-ai-toolkit-run-llms-locally/4163192)
+* [Slashdot Discussions on AI Agents and Assistants](https://slashdot.org/software/ai-agents/linux/)
+  Community discussions on Linux AI agents and free AI assistants.
+  **Notes:** Free.
 
-Microsoft's toolkit for running LLMs locally in VS Code.
-**Notes:** Free.
+* [LAION-5B Dataset (laion.ai)](https://laion.ai/blog/laion-5b/)
+  Information on the LAION-5B open dataset for training large AI models.
+  **Notes:** Free and open.
 
-### [Self-Hosted LLM Coding Assistants (semaphore.io)](https://semaphore.io/blog/selfhosted-llm-coding-assistants)
+* [MCP Pipedream (mcp.pipedream.com)](https://mcp.pipedream.com/)
+  Platform for building AI workflows and integrations.
+  **Notes:** Freemium model.
 
-Overview of self-hosted coding assistants powered by LLMs.
-**Notes:** Free.
+* [What LLM to Use (continuedev)](https://github.com/continuedev/what-llm-to-use)
+  A guide to choosing the right LLM for your needs.
+  **Notes:** Free and open-source.
 
-### [n8n Local LLM Integration (blog.n8n.io)](https://blog.n8n.io/local-llm/)
+* [YouTube: Local LLM Tutorial](https://www.youtube.com/watch?v=yG5Pvk9Bkqk&list=WL&index=22)
+  Video tutorial on working with local LLMs.
+  **Notes:** Free.
 
-Guide on integrating local LLMs with n8n workflow automation.
-**Notes:** Free.
+* [AI (tylerprogramming)](https://github.com/tylerprogramming/ai)
+  A collection of AI projects, tools, and experiments. Useful for developers exploring practical AI implementations.
+  **Notes:** Free and open-source.
 
-### [Reddit: Starter Guide for Local LLaMA](https://www.reddit.com/r/LocalLLaMA/comments/16y95hk/a_starter_guide_for_playing_with_your_own_local_ai/)
+* [AI System Development: LLM, RAG, AI Workflow, Agent (codelink.io)](https://www.codelink.io/blog/post/ai-system-development-llm-rag-ai-workflow-agent)
+  A blog post providing a practical overview of building AI systems using LLMs, retrieval-augmented generation (RAG), and agent workflows.
+  **Notes:** Free.
 
-Community guide for running local LLaMA models.
-**Notes:** Free.
+* [Essential Reading for August 2025 (steipete.me)](https://steipete.me/posts/2025/essential-reading-august-2025)
+  A curated list of essential AI/tech reading from August 2025. Free.
 
-### [Udemy AI Engineering Courses (multiple)](https://www.udemy.com/course/the-ai-engineer-course-complete-ai-engineer-bootcamp/?couponCode=ST4MT20725G1)
+* [The Agentic RAG Course (maven.com)](https://maven.com/damien-benveniste/agentic-rag?promoCode=FIRST20)
+  A course focused on integrating agents with Retrieval-Augmented Generation (RAG). **Notes:** Paid course.
 
-Various paid courses on AI engineering and LLM app development.
-**Notes:** Paid courses; discounts may be available.
+* [arXiv:2506.10943](https://arxiv.org/pdf/2506.10943)
+  A recent academic paper (June 2025) on advanced AI agent systems, architectures, or evaluation.
+  **Notes:** Free to access; highly relevant for those seeking the latest research.
 
-### [ScienceDirect Article on AI Agents](https://www.sciencedirect.com/science/article/pii/S266682702400046X)
-
-Academic article discussing recent advances in AI agents.
-**Notes:** Access may require subscription or institutional access.
-
-### [Slashdot Discussions on AI Agents and Assistants](https://slashdot.org/software/ai-agents/linux/)
-
-Community discussions on Linux AI agents and free AI assistants.
-**Notes:** Free.
-
-### [LAION-5B Dataset (laion.ai)](https://laion.ai/blog/laion-5b/)
-
-Information on the LAION-5B open dataset for training large AI models.
-**Notes:** Free and open.
-
-### [MCP Pipedream (mcp.pipedream.com)](https://mcp.pipedream.com/)
-
-Platform for building AI workflows and integrations.
-**Notes:** Freemium model.
-
-### [What LLM to Use (continuedev)](https://github.com/continuedev/what-llm-to-use)
-
-A guide to choosing the right LLM for your needs.
-**Notes:** Free and open-source.
-
-### [YouTube: Local LLM Tutorial](https://www.youtube.com/watch?v=yG5Pvk9Bkqk&list=WL&index=22)
-
-Video tutorial on working with local LLMs.
-**Notes:** Free.
-
-### [AI (tylerprogramming)](https://github.com/tylerprogramming/ai)
-
-A collection of AI projects, tools, and experiments. Useful for developers exploring practical AI implementations.
-**Notes:** Free and open-source.
-
-### [AI System Development: LLM, RAG, AI Workflow, Agent (codelink.io)](https://www.codelink.io/blog/post/ai-system-development-llm-rag-ai-workflow-agent)
-
-A blog post providing a practical overview of building AI systems using LLMs, retrieval-augmented generation (RAG), and agent workflows.
-**Notes:** Free.
-
-### [arXiv:2506.10943](https://arxiv.org/pdf/2506.10943)
-
-A recent academic paper (June 2025) on advanced AI agent systems, architectures, or evaluation.
-**Notes:** Free to access; highly relevant for those seeking the latest research.
+* [arXiv:2506.15692](https://arxiv.org/abs/2506.15692)
+  A recent academic paper (June 2025) on AI agent systems, likely with a focus on web interaction and search. Free to access.
 
 ---
 
@@ -394,6 +398,16 @@ Google AI has introduced MASS, a new framework for optimizing multi-agent AI sys
 * [YouTube: Google AI MASS Presentation](https://www.youtube.com/watch?v=UsB3BR0RdBA)
   Video presentation on the MASS framework and multi-agent system optimization. Free.
 
+### Google AI MLE-Star Research
+
+MLE-Star (Machine Learning Engineering Star) is a Google AI agent framework focused on Machine Learning Engineering tasks, demonstrating state-of-the-art performance in real-time web search and complex task completion.
+
+* [Google AI Blog: MLE-Star Agent](https://research.google/blog/mle-star-a-state-of-the-art-machine-learning-engineering-agents/)
+  Official Google AI blog post announcing and detailing the MLE-Star agent. Free.
+
+* [Medium Article: Google's MLE-Star Agent](https://medium.com/aimonks/googles-mle-star-winning-with-real-time-web-search-293890905268)
+  Analysis and overview of the MLE-Star agent's capabilities, particularly its use of real-time web search. Free.
+
 ---
 
 ## Theme 5: Model Context Protocol (MCP) Ecosystem
@@ -402,22 +416,38 @@ Google AI has introduced MASS, a new framework for optimizing multi-agent AI sys
 
 The Model Context Protocol (MCP) is an emerging standard and ecosystem for integrating, orchestrating, and automating AI agents and tools, especially in local and privacy-focused environments. Below are key resources and projects in the MCP space:
 
-### [MCP Protocol Servers (modelcontextprotocol)](https://github.com/modelcontextprotocol/servers?tab=readme-ov-file)
+### Core MCP Resources
 
-A collection of MCP server implementations for various platforms and use cases.
-**Notes:** Free and open-source.
+* [MCP Protocol Servers (modelcontextprotocol)](https://github.com/modelcontextprotocol/servers?tab=readme-ov-file)
+  A collection of MCP server implementations for various platforms and use cases. **Notes:** Free and open-source.
 
-### [MCP.so](https://mcp.so/)
+* [MCP.so](https://mcp.so/)
+  A platform and hub for MCP-based tools, integrations, and community resources. **Notes:** Free to use; some integrations may have costs.
 
-A platform and hub for MCP-based tools, integrations, and community resources.
-**Notes:** Free to use; some integrations may have costs.
+* [MCP Pipedream (mcp.pipedream.com)](https://mcp.pipedream.com/)
+  Platform for building AI workflows and integrations using MCP. **Notes:** Freemium model.
 
-### [MCP Pipedream (mcp.pipedream.com)](https://mcp.pipedream.com/)
+* [MCP Documentation (modelcontextprotocol.io)](https://modelcontextprotocol.io/docs/getting-started/intro)
+  Official documentation for the Model Context Protocol, including getting started guides. Free.
 
-Platform for building AI workflows and integrations using MCP.
-**Notes:** Freemium model.
+* [Chrome DevTools MCP Integration (developer.chrome.com)](https://developer.chrome.com/blog/chrome-devtools-mcp)
+  Blog post announcing the integration of the Model Context Protocol (MCP) into Chrome DevTools, allowing agents to interact with the browser. Free.
 
-#### MCP-Related Tools and Integrations
+* [Chrome DevTools MCP Article (addyosmani.com)](https://addyosmani.com/blog/devtools-mcp/)
+  Detailed article on the capabilities and use cases of the MCP integration within Chrome DevTools. Free.
+
+### LlamaIndex and RAG Ecosystem with MCP
+
+* [RAG-Anything MCP Server (jesse-merhi)](https://github.com/jesse-merhi/rag-anything-mcp)
+  An MCP server implementation that integrates the RAG-Anything project (a RAG framework, see Theme 3), enabling other agents to use its retrieval capabilities. Free and open-source.
+* [MCP Market RAG Servers (pulsemcp.com)](https://www.pulsemcp.com/servers?q=RAG)
+  Search results for RAG-related servers on a community MCP marketplace. Free/open-source servers may be available.
+* [MCP Market: RAG-Anything Server (mcpmarket.com)](https://mcpmarket.com/server/rag-anything)
+  Specific listing for the RAG-Anything MCP Server on a community marketplace. Free/open-source.
+* [arXiv:2410.05779](https://arxiv.org/pdf/2410.05779)
+  A technical paper (October 2024) likely detailing advanced RAG and agentic data retrieval methods. Free to access.
+
+#### MCP-Related Tools and Integrations (GitHub Repos)
 
 * [applescript-mcp (peakmojo)](https://github.com/peakmojo/applescript-mcp): AppleScript integration for MCP.
 * [choturobo (vishalmysore)](https://github.com/vishalmysore/choturobo): MCP-based automation tool.
@@ -433,6 +463,68 @@ Platform for building AI workflows and integrations using MCP.
 * [kicad-mcp (lamaalrajih)](https://github.com/lamaalrajih/kicad-mcp): KiCad integration for MCP.
 
 **Notes:** All above are free and open-source unless otherwise noted.
+
+#### MCP-Related Tools and Integrations (Marketplace Servers)
+
+A list of available MCP servers from a community marketplace, showing a wide range of use cases:
+
+* [MCP Market: Productivity/Workflow Category](https://mcpmarket.com/categories/productivity-workflow)
+* [MCP Market: Obsidian Server 1](https://mcpmarket.com/server/obsidian)
+* [MCP Market: Web Research Server](https://mcpmarket.com/server/web-research-2)
+* [MCP Market: LLM Context Server](https://mcpmarket.com/server/llm-context)
+* [MCP Market: Apple Shortcuts Server](https://mcpmarket.com/server/apple-shortcuts)
+* [MCP Market: Obsidian Server 2](https://mcpmarket.com/server/obsidian-1)
+* [MCP Market: Flow-Like Server](https://mcpmarket.com/server/flow-like)
+* [MCP Market: Prompt Server](https://mcpmarket.com/server/prompt-server)
+* [MCP Market: GDrive Server](https://mcpmarket.com/server/gdrive-1)
+* [MCP Market: Code Runner Server](https://mcpmarket.com/server/code-runner)
+* [MCP Market: Mindmap Server](https://mcpmarket.com/server/mindmap)
+* [MCP Market: Task Manager Server](https://mcpmarket.com/server/taskmanager)
+* [MCP Market: Mermaid Diagram Generator](https://mcpmarket.com/server/mermaid-diagram-generator)
+* [MCP Market: Todoist Server](https://mcpmarket.com/server/todoist-7)
+* [MCP Market: Browser Control Server](https://mcpmarket.com/server/browser-control)
+* [MCP Market: Mac Messages Server](https://mcpmarket.com/server/mac-messages)
+* [MCP Market: N8N Workflow Builder](https://mcpmarket.com/server/n8n-workflow-builder-2)
+* [MCP Market: Text Editor Server](https://mcpmarket.com/server/text-editor)
+* [MCP Market: Toolbase Server](https://mcpmarket.com/server/toolbase)
+* [MCP Market: Telegram Server](https://mcpmarket.com/server/telegram-2)
+* [MCP Market: Smart Tree Server](https://mcpmarket.com/server/smart-tree)
+* [MCP Market: Vibe Check Server](https://mcpmarket.com/server/vibe-check)
+* [MCP Market: MCPHub Desktop Server](https://mcpmarket.com/server/mcphub-desktop)
+* [MCP Market: Tmux Server](https://mcpmarket.com/server/tmux)
+* [MCP Market: Content Summarizer](https://mcpmarket.com/server/content-summarizer-1)
+* [MCP Market: Jupyter Notebook Server](https://mcpmarket.com/server/jupyter-notebook)
+* [MCP Market: N8N Server](https://mcpmarket.com/server/n8n)
+* [MCP Market: Ultimate Server](https://mcpmarket.com/server/ultimate)
+* [MCP Market: 3D Printer Server](https://mcpmarket.com/server/3d-printer-server)
+* [MCP Market: N8N Workflow Transformer](https://mcpmarket.com/server/n8n-workflow-transformer)
+* [MCP Market: Computer Use Server](https://mcpmarket.com/server/computer-use)
+* [MCP Market: Python Interpreter Server](https://mcpmarket.com/server/python-interpreter)
+* [MCP Market: Desktop Commander](https://mcpmarket.com/server/desktop-commander-1)
+* [MCP Market: Cody Server (Coding Assistant)](https://mcpmarket.com/server/cody)
+* [MCP Market: Container Use Server](https://mcpmarket.com/server/container-use)
+* [MCP Market: N8N MCP Client](https://mcpmarket.com/server/n8n-mcp-client-1)
+* [MCP Market: Markdownify Server](https://mcpmarket.com/server/markdownify)
+* [MCP Market: AI Agents A-Z Server](https://mcpmarket.com/server/ai-agents-a-z)
+* [MCP Market: Obsidian Connector](https://mcpmarket.com/server/obsidian-connector-1)
+* [MCP Market: Google Workspace Server](https://mcpmarket.com/server/google-workspace-5)
+* [MCP Market: Peekaboo Server](https://mcpmarket.com/server/peekaboo)
+* [MCP Market: IMCP Server](https://mcpmarket.com/server/imcp)
+* [MCP Market: Filesystem Server](https://mcpmarket.com/server/filesystem)
+* [MCP Market: MacOS Automator](https://mcpmarket.com/server/macos-automator)
+* [MCP Market: iTerm Server](https://mcpmarket.com/server/iterm)
+* [MCP Market: GSuite Server](https://mcpmarket.com/server/gsuite)
+* [MCP Market: Pandoc Server](https://mcpmarket.com/server/pandoc)
+* [MCP Market: Metamcp Server](https://mcpmarket.com/server/metamcp-1)
+* [MCP Market: Spec Driven Development Server](https://mcpmarket.com/server/spec-driven-development)
+* [MCP Market: AI Development Assistant](https://mcpmarket.com/server/ai-development-assistant)
+* [MCP Market: OpenCoder Server](https://mcpmarket.com/server/opencoder)
+* [MCP Market: Automation Server](https://mcpmarket.com/server/automation)
+* [MCP Market: WCGW Server](https://mcpmarket.com/server/wcgw)
+* [MCP Market: KiCad Server](https://mcpmarket.com/server/kicad)
+* [MCP Market: Todoist Server (General)](https://mcpmarket.com/server/todoist)
+* [MCP Market: Interactive Server](https://mcpmarket.com/server/interactive)
+* [MCP Market: Claude Context Server](https://mcpmarket.com/server/claude-context)
 
 ### n8n AI Workflow Tools and Integrations
 
@@ -483,6 +575,15 @@ GitHub repository for Kilo Code, an open-source AI coding assistant for planning
 A collection of prompts for enhancing productivity with large language models.
 **Notes:** Free and open-source.
 
+### Theme 6b: AI Coding Assistants (Continued)
+
+* [Aider Chat](https://aider.chat/)
+  A dedicated command-line tool for pair programming with an LLM, focusing on editing code directly within your terminal and git integration. Free and open-source.
+* [Onyx App](https://github.com/onyx-dot-app/onyx/tree/main)
+  A development tool or framework, likely focusing on AI-assisted development or a multi-modal agent. Free and open-source.
+* [Programming Prompts (BlackFriday-GPTs-Prompts)](https://github.com/friuns2/BlackFriday-GPTs-Prompts/blob/main/Programming.md)
+  A curated list of prompts specifically for programming tasks to be used with large language models. Free and open-source.
+
 ---
 
 ## Theme 7: AI Video Generation
@@ -493,6 +594,32 @@ A collection of prompts for enhancing productivity with large language models.
 
 A fast AI Video Generator for the GPU Poor. Supports Wan 2.1/2.2, Hunyuan Video, LTX Video and Flux.
 **Notes:** Free and open-source.
+
+### [Frame Pack (lllyasviel)](https://lllyasviel.github.io/frame_pack_gitpage/)
+
+A project by a known AI researcher, likely focused on improving video generation quality or consistency across frames. Free and open-source.
+
+---
+
+## Theme 7b: AI Image Generation and Editing
+
+*Resources for the Qwen-Image model and other AI image tools.*
+
+### Qwen-Image Model and Guides
+
+* [Qwen AI Blog: Image Edit](https://qwen.ai/blog?id=7a90090115ee193ce6a7f619522771dd9696dd93&from=research.latest-advancements-list)
+  The official Qwen AI blog post about the Qwen-Image Edit model, detailing its capabilities. Free.
+* [Qwen-Image Edit Technical Guide (collabnix.com)](https://collabnix.com/qwen-image-edit-the-ultimate-technical-guide-to-ai-powered-image-editing-2025/)
+  A detailed technical guide on using the Qwen-Image Edit model, dated 2025. Free.
+* [Medium Article: Qwen-Image Best Open-Sourced AI Image Generation](https://medium.com/data-science-in-your-pocket/qwen-image-best-open-sourced-ai-image-generation-is-here-d09b6e7f6c71)
+  An article discussing Qwen-Image as a leading open-source image generation model. Free.
+* [Complete Guide to Qwen-Image Edit (dev.to)](https://dev.to/czmilo/2025-latest-complete-guide-to-qwen-image-edit-image-editing-model-2kd5)
+  A complete and up-to-date guide (2025) on the Qwen-Image Edit model. Free.
+
+### Other Image Tools
+
+* [FlyMyAI Lora Trainer](https://github.com/FlyMyAI/flymyai-lora-trainer)
+  A tool for training LoRA (Low-Rank Adaptation) models, commonly used to fine-tune generative AI models like Stable Diffusion for specific image styles or subjects. Free and open-source.
 
 ---
 
@@ -573,7 +700,8 @@ This appendix contains specific n8n Workspace and Node resources. In future upda
 - Tutorials and guides dated 2024 or later are more likely to be current and relevant.
 - Official docs and no-code tools like AutoGen Studio v0.4 are highly recommended for up-to-date usage.
 - Many resources are free and open-source; some platforms and courses have associated costs or subscription fees—these are noted where applicable.
+- The **Model Context Protocol (MCP)** ecosystem is rapidly expanding, with new server integrations for a wide variety of tools, including LlamaIndex/RAG and developer tools like Chrome DevTools.
 
 ---
 
-*Document last updated: 2025-08-15*
+*Document last updated: 2025-10-01*
